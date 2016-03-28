@@ -1,6 +1,12 @@
 !! Noun inflection
 !! ---------------
-!! The UNDEFINED language nouns inflect in cases.
+!! The LUO language nouns inflect in cases.
+
+LEXICON N_
++N: #;
+
+LEXICON N_OT
++N+Sg: # ;
 
 LEXICON Cases
 +N+sg+nom:0     #   ;

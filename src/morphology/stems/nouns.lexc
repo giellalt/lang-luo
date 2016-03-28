@@ -1,8 +1,9 @@
 !! Nouns
 !! -----
-!! Nouns in UNDEFINED language are things.
+!! Nouns in the LUO language are things.
 
 LEXICON Nouns
 noun    Cases   ;
+ot:ot N_OT "house" ;
 
 ! vim: set ft=xfst-lexc:
