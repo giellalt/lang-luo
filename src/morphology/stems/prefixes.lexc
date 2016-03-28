@@ -1,0 +1,38 @@
+!! Prefixes
+!! --------
+!! Prefixes in the LUO language are bound to beginning of other words.
+
+LEXICON Prefixes
+nounprefix-     Nouns   ;
+@U.Sc.NO@     Verbs   ;
+000@U.TMA1-IndPrt.YES@:ne%<@U.TMA1-IndPrt.YES@ SC-PL-PERSON ;
+00@U.TMA1-IndPrt.YES@:n%<@U.TMA1-IndPrt.YES@ SC-SG-PERSON ;
+@U.TMA1-IndPrt.NO@  SC-PERSON ;
+000000@U.TMA1.OptPrs@:dipop%<@U.TMA1.OptPrs@  SC-PERSON ;
+
+LEXICON SC-PERSON
+ SC-PL-PERSON ;
+ SC-SG-PERSON ;
+LEXICON SC-PL-PERSON
+00@U.Sc.Pl1@:wa%<@U.Sc.Pl1@ TMA-AFTER-SC-PERSON ;
+00@U.Sc.Pl2@:u%<@U.Sc.Pl2@ TMA-AFTER-SC-PERSON ;
+00@U.Sc.Pl3@:gi%<@U.Sc.Pl3@ TMA-AFTER-SC-PERSON ;
+
+LEXICON SC-SG-PERSON
+00@U.Sc.Sg1@:a%<@U.Sc.Sg1@ TMA-AFTER-SC-PERSON ;
+00@U.Sc.Sg2@:i%<@U.Sc.Sg2@ TMA-AFTER-SC-PERSON ;
+00@U.Sc.Sg3@:o%<@U.Sc.Sg3@ TMA-AFTER-SC-PERSON ;
+
+
+LEXICON TMA-AFTER-SC-PERSON
+@U.TMA1-IndPrt.YES@@U.TMA1.IndPrt@ Verbs   ;
+@U.TMA1-IndPrt.NO@@U.TMA1.IndPrs@ Verbs   ;
+@U.TMA1.OptPrs@ Verbs ;
+0000@U.TMA1-IndPrt.NO@@U.TMA1.IndFut@:bro%<@U.TMA1-IndPrt.NO@@U.TMA1.IndFut@ Verbs   ;
+00000@U.TMA1-IndPrt.NO@@U.TMA1.IndFut@:biro%<@U.TMA1-IndPrt.NO@@U.TMA1.IndFut@ Verbs   ;
+000@U.TMA1-IndPrt.NO@@U.TMA1.IndFut@:bo%<@U.TMA1-IndPrt.NO@@U.TMA1.IndFut@ Verbs   ;
+000@U.TMA2.se@@U.TMA1-IndPrt.NO@@U.TMA1.IndPrs@:se%<@U.TMA2.se@@U.TMA1-IndPrt.NO@@U.TMA1.IndPrs@ Verbs   ;
+000@U.TMA2.se@@U.TMA1-IndPrt.YES@@U.TMA1.IndPrt@:se%<@U.TMA2.se@@U.TMA1-IndPrt.YES@@U.TMA1.IndPrt@ Verbs   ;
+
+
+! vim: set ft=xfst-lexc:

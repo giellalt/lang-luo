@@ -1,0 +1,111 @@
+!! Verb inflection
+!! ---------------
+!! The LUO language verbs inflect in persons.
+
+LEXICON V_
++V: # ;
+LEXICON V_CHWEYO
++V: #;
+LEXICON V_NENO
++V: #;
+LEXICON V_WACHO
++V0@U.Sc.NO@:%>o@U.Sc.NO@ INF ;
++V:%>o INDICATIVE ;
+
+LEXICON INDICATIVE
++Ind+Fut@R.TMA1.IndFut@@D.TMA2@:00@R.TMA1.IndFut@@D.TMA2@ INDICATIVE-4-SC ;
++Ind+Prs@R.TMA1.IndPrs@@D.TMA2@:00@R.TMA1.IndPrs@@D.TMA2@ INDICATIVE-4-SC ;
++Ind+Prt@R.TMA1.IndPrt@@D.TMA2@:00@R.TMA1.IndPrt@@D.TMA2@ INDICATIVE-4-SC ;
+@R.TMA2.se@ PERFECT-CHOOSE ;
++Opt+Prs@R.TMA1.OptPrs@@D.TMA2@:00@R.TMA1.OptPrs@@D.TMA2@ INDICATIVE-4-SC ;
+
+LEXICON PERFECT-CHOOSE
++Ind+Prf@U.TMA1.IndPrs@:00@U.TMA1.IndPrs@ INDICATIVE-4-SC ;
++Ind+PluPrf@U.TMA1.IndPrt@:00@U.TMA1.IndPrt@ INDICATIVE-4-SC ;
+
+
+LEXICON INDICATIVE-4-SC
+@U.Sc.Sg1@ SCSG1 ;
+@U.Sc.Sg2@ SCSG2 ;
+@U.Sc.Sg3@ SCSG3 ;
+@U.Sc.Pl1@ SCPL1 ;
+@U.Sc.Pl2@ SCPL2 ;
+@U.Sc.Pl3@ SCPL3 ;
+
+LEXICON SCPL1
++ScPl1: # ;
++ScPl10@U.Oc.Sg2@:%>n@U.Oc.Sg2@ OCSG2 ;
++ScPl10@U.Oc.Sg3@:%>n@U.Oc.Sg3@ OCSG3 ;
++ScPl10@U.Oc.Pl2@:@U.Oc.Pl2@ OCPL2 ;
++ScPl10@U.Oc.Pl3@:@U.Oc.Pl3@ OCPL3 ;
+
+LEXICON SCPL2
++ScPl2: # ;
++ScPl20@U.Oc.Sg1@:%>n@U.Oc.Sg1@ OCSG1 ;
++ScPl20@U.Oc.Sg3@:%>n@U.Oc.Sg3@ OCSG3 ;
++ScPl20@U.Oc.Pl1@:%>n@U.Oc.Pl1@ OCPL1 ;
++ScPl2@U.Oc.Pl3@:0@U.Oc.Pl3@ OCPL3 ;
+
+LEXICON SCPL3
++ScPl3: # ;
++ScPl30@U.Oc.Sg1@:%>n@U.Oc.Sg1@ OCSG1 ;
++ScPl30@U.Oc.Sg2@:%>n@U.Oc.Sg2@ OCSG2 ;
++ScPl30@U.Oc.Sg3@:%>n@U.Oc.Sg3@ OCSG3 ;
++ScPl30@U.Oc.Pl1@:%>n@U.Oc.Pl1@ OCPL1 ;
++ScPl3@U.Oc.Pl2@:0@U.Oc.Pl2@ OCPL2 ;
++ScPl3@U.Oc.Pl3@:0@U.Oc.Pl3@ OCPL3 ;
+
+
+LEXICON SCSG1
++ScSg1: # ;
++ScSg10@U.Oc.Sg2@:%>n@U.Oc.Sg2@ OCSG2 ;
++ScSg10@U.Oc.Sg3@:%>n@U.Oc.Sg3@ OCSG3 ;
++ScSg10@U.Oc.Pl2@:@U.Oc.Pl2@ OCPL2 ;
++ScSg10@U.Oc.Pl3@:@U.Oc.Pl3@ OCPL3 ;
+LEXICON SCSG2
++ScSg2: # ;
++ScSg20@U.Oc.Sg1@:%>n@U.Oc.Sg1@ OCSG1 ;
++ScSg20@U.Oc.Sg3@:%>n@U.Oc.Sg3@ OCSG3 ;
++ScSg20@U.Oc.Pl1@:%>n@U.Oc.Pl1@ OCPL1 ;
++ScSg2@U.Oc.Pl3@:0@U.Oc.Pl3@ OCPL3 ;
+
+LEXICON SCSG3
++ScSg3: # ;
++ScSg30@U.Oc.Sg1@:%>n@U.Oc.Sg1@ OCSG1 ;
++ScSg30@U.Oc.Sg2@:%>n@U.Oc.Sg2@ OCSG2 ;
++ScSg30@U.Oc.Sg3@:%>n@U.Oc.Sg3@ OCSG3 ;
++ScSg30@U.Oc.Pl1@:%>n@U.Oc.Pl1@ OCPL1 ;
++ScSg3@U.Oc.Pl2@:0@U.Oc.Pl2@ OCPL2 ;
++ScSg3@U.Oc.Pl3@:0@U.Oc.Pl3@ OCPL3 ;
+
+LEXICON OCPL1
++OcPl1:%>wa # ;
+LEXICON OCPL2
++OcPl2:%>u # ;
+LEXICON OCPL3
++OcPl3:%>gi # ;
+
+LEXICON OCSG1
++OcSg1:%>a # ;
+LEXICON OCSG2
++OcSg2:%>i # ;
+LEXICON OCSG3
++OcSg3:%>e # ;
+
+LEXICON INF
++Inf: # ;
+
+LEXICON Persons
++V+1sg:en   #   ;
++V+2sg:et   #   ;
++V+3sg:e    #   ;
++V+1pl:ien  #   ;
++V+2pl:iet  #   ;
++V+3pl:iet  #   ;
++V+inf:0    #   ;
+#:0   Nouns   ;
+
+
+
+! vim: set ft=xfst-lexc:
+

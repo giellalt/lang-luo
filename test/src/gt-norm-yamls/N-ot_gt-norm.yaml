@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - ot: # Noun 'house' - full paradigm
+     ot+N+Sg: ot
+     ot+N+Sg+DemDistal: odcha
+     ot+N+Sg+DemProx: odno
+     ot+N+Sg+DemEgo: odni
+     ot+N+Sg+PxSg1: oda
+     ot+N+Sg+PxSg2: odi
+     ot+N+Sg+PxSg3: ode
+     ot+N+Sg+PxPl1: odwa
+     ot+N+Sg+PxPl2: odu
+     ot+N+Sg+PxPl3: odgi
+
+     ot+N+Pl: ute
+     ot+N+Pl+DemDistal: uteka
+     ot+N+Pl+DemProx: utego
+     ot+N+Pl+DemEgo: utegi
+     ot+N+Pl+PxSg1: utena
+     ot+N+Pl+PxSg2: uteni
+     ot+N+Pl+PxSg3: utene
+     ot+N+Pl+PxPl1: utewa
+     ot+N+Pl+PxPl2: uteu
+     ot+N+Pl+PxPl3: utegi

@@ -1,0 +1,238 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+# object conjugation involves direct and indirect object
+
+  Verb - wacho: # Verb 'to say' - full paradigm
+     wacho+V+Inf: wacho
+     wacho+V+Ind+Prt+ScSg1: nawacho
+     wacho+V+Ind+Prt+ScSg2: niwacho
+     wacho+V+Ind+Prt+ScSg3: nowacho
+     wacho+V+Ind+Prt+ScPl1: newawacho
+     wacho+V+Ind+Prt+ScPl2: neuwacho
+     wacho+V+Ind+Prt+ScPl3: negiwacho
+
+     wacho+V+Ind+Prt+ScSg2+OcSg1: niwachona
+     wacho+V+Ind+Prt+ScSg3+OcSg1: nowachona
+     wacho+V+Ind+Prt+ScPl2+OcSg1: neuwachona
+     wacho+V+Ind+Prt+ScPl3+OcSg1: negiwachona
+#
+     wacho+V+Ind+Prt+ScSg1+OcSg2: nawachoni
+     wacho+V+Ind+Prt+ScSg3+OcSg2: nowachoni
+     wacho+V+Ind+Prt+ScPl1+OcSg2: newawachoni
+     wacho+V+Ind+Prt+ScPl3+OcSg2: negiwachoni
+#
+     wacho+V+Ind+Prt+ScSg1+OcSg3: nawachone
+     wacho+V+Ind+Prt+ScSg2+OcSg3: niwachone
+     wacho+V+Ind+Prt+ScSg3+OcSg3: nowachone
+     wacho+V+Ind+Prt+ScPl1+OcSg3: newawachone
+     wacho+V+Ind+Prt+ScPl2+OcSg3: neuwachone
+     wacho+V+Ind+Prt+ScPl3+OcSg3: negiwachone
+#
+     wacho+V+Ind+Prt+ScSg1+OcPl1: nawachonwa
+     wacho+V+Ind+Prt+ScSg2+OcPl1: niwachonwa
+     wacho+V+Ind+Prt+ScSg3+OcPl1: nowachonwa
+     wacho+V+Ind+Prt+ScPl2+OcPl1: neuwachonwa
+     wacho+V+Ind+Prt+ScPl3+OcPl1: negiwachonwa
+#
+     wacho+V+Ind+Prt+ScSg1+OcPl2: nawachou
+     wacho+V+Ind+Prt+ScSg3+OcPl2: nowachou
+     wacho+V+Ind+Prt+ScPl1+OcPl2: newawachou
+     wacho+V+Ind+Prt+ScPl3+OcPl2: negiwachou
+#
+     wacho+V+Ind+Prt+ScSg1+OcPl3: nawachogi
+     wacho+V+Ind+Prt+ScSg2+OcPl3: niwachogi
+     wacho+V+Ind+Prt+ScSg3+OcPl3: nowachogi
+     wacho+V+Ind+Prt+ScPl1+OcPl3: newawachogi
+     wacho+V+Ind+Prt+ScPl2+OcPl3: neuwachogi
+     wacho+V+Ind+Prt+ScPl3+OcPl3: negiwachogi
+
+
+## i- present continuative
+
+     wacho+V+Ind+PrsCont+ScSg1: awacho
+     wacho+V+Ind+PrsCont+ScSg2: iwacho
+     wacho+V+Ind+PrsCont+ScSg3: owacho
+     wacho+V+Ind+PrsCont+ScPl1: wawacho
+     wacho+V+Ind+PrsCont+ScPl2: uwacho
+     wacho+V+Ind+PrsCont+ScPl3: giwacho
+
+#
+     wacho+V+Ind+PrsCont+ScSg2+OcSg1: iwachona
+     wacho+V+Ind+PrsCont+ScSg3+OcSg1: owachona
+     wacho+V+Ind+PrsCont+ScPl2+OcSg1: uwachona
+     wacho+V+Ind+PrsCont+ScPl3+OcSg1: giwachona
+#
+     wacho+V+Ind+PrsCont+ScSg1+OcSg2: awachoni
+     wacho+V+Ind+PrsCont+ScSg3+OcSg2: owachoni
+     wacho+V+Ind+PrsCont+ScPl1+OcSg2: wawachoni
+     wacho+V+Ind+PrsCont+ScPl3+OcSg2: giwachoni
+#
+     wacho+V+Ind+PrsCont+ScSg1+OcSg3: awachone
+     wacho+V+Ind+PrsCont+ScSg2+OcSg3: iwachone
+     wacho+V+Ind+PrsCont+ScSg3+OcSg3: owachone
+     wacho+V+Ind+PrsCont+ScPl1+OcSg3: wawachone
+     wacho+V+Ind+PrsCont+ScPl2+OcSg3: uwachone
+     wacho+V+Ind+PrsCont+ScPl3+OcSg3: giwachone
+#
+     wacho+V+Ind+PrsCont+ScSg1+OcPl1: awachonwa
+     wacho+V+Ind+PrsCont+ScSg2+OcPl1: iwachonwa
+     wacho+V+Ind+PrsCont+ScSg3+OcPl1: owachonwa
+     wacho+V+Ind+PrsCont+ScPl2+OcPl1: uwachonwa
+     wacho+V+Ind+PrsCont+ScPl3+OcPl1: giwachonwa
+#
+     wacho+V+Ind+PrsCont+ScSg1+OcPl2: awachou
+     wacho+V+Ind+PrsCont+ScSg3+OcPl2: owachou
+     wacho+V+Ind+PrsCont+ScPl1+OcPl2: wawachou
+     wacho+V+Ind+PrsCont+ScPl3+OcPl2: giwachou
+#
+     wacho+V+Ind+PrsCont+ScSg1+OcPl3: awachogi
+     wacho+V+Ind+PrsCont+ScSg2+OcPl3: iwachogi
+     wacho+V+Ind+PrsCont+ScSg3+OcPl3: owachogi
+     wacho+V+Ind+PrsCont+ScPl1+OcPl3: wawachogi
+     wacho+V+Ind+PrsCont+ScPl2+OcPl3: uwachogi
+     wacho+V+Ind+PrsCont+ScPl3+OcPl3: giwachogi
+
+##ibro- future
+
+     wacho+V+Ind+Fut+ScSg1: abrowacho
+     wacho+V+Ind+Fut+ScSg2: ibrowacho
+     wacho+V+Ind+Fut+ScSg3: obrowacho
+     wacho+V+Ind+Fut+ScPl1: wabrowacho
+     wacho+V+Ind+Fut+ScPl2: ubrowacho
+     wacho+V+Ind+Fut+ScPl3: gibrowacho
+
+#
+     wacho+V+Ind+Fut+ScSg2+OcSg1: ibrowachona
+     wacho+V+Ind+Fut+ScSg3+OcSg1: obrowachona
+     wacho+V+Ind+Fut+ScPl2+OcSg1: ubrowachona
+     wacho+V+Ind+Fut+ScPl3+OcSg1: gibrowachona
+#
+     wacho+V+Ind+Fut+ScSg1+OcSg2: abrowachoni
+     wacho+V+Ind+Fut+ScSg3+OcSg2: obrowachoni
+     wacho+V+Ind+Fut+ScPl1+OcSg2: wabrowachoni
+     wacho+V+Ind+Fut+ScPl3+OcSg2: gibrowachoni
+#
+     wacho+V+Ind+Fut+ScSg1+OcSg3: abrowachone
+     wacho+V+Ind+Fut+ScSg2+OcSg3: ibrowachone
+     wacho+V+Ind+Fut+ScSg3+OcSg3: obrowachone
+     wacho+V+Ind+Fut+ScPl1+OcSg3: wabrowachone
+     wacho+V+Ind+Fut+ScPl2+OcSg3: ubrowachone
+     wacho+V+Ind+Fut+ScPl3+OcSg3: gibrowachone
+#
+     wacho+V+Ind+Fut+ScSg1+OcPl1: abrowachonwa
+     wacho+V+Ind+Fut+ScSg2+OcPl1: ibrowachonwa
+     wacho+V+Ind+Fut+ScSg3+OcPl1: obrowachonwa
+     wacho+V+Ind+Fut+ScPl2+OcPl1: ubrowachonwa
+     wacho+V+Ind+Fut+ScPl3+OcPl1: gibrowachonwa
+#
+     wacho+V+Ind+Fut+ScSg1+OcPl2: abrowachou
+     wacho+V+Ind+Fut+ScSg3+OcPl2: obrowachou
+     wacho+V+Ind+Fut+ScPl1+OcPl2: wabrowachou
+     wacho+V+Ind+Fut+ScPl3+OcPl2: gibrowachou
+#
+     wacho+V+Ind+Fut+ScSg1+OcPl3: abrowachogi
+     wacho+V+Ind+Fut+ScSg2+OcPl3: ibrowachogi
+     wacho+V+Ind+Fut+ScSg3+OcPl3: obrowachogi
+     wacho+V+Ind+Fut+ScPl1+OcPl3: wabrowachogi
+     wacho+V+Ind+Fut+ScPl2+OcPl3: ubrowachogi
+     wacho+V+Ind+Fut+ScPl3+OcPl3: gibrowachogi
+
+## CONDITION
+
+     wacho+V+Cond+ScSg1: kawacho
+     wacho+V+Cond+ScSg2: kiwacho
+     wacho+V+Cond+ScSg3: kowacho
+     wacho+V+Cond+ScPl1: kawawacho
+     wacho+V+Cond+ScPl2: kauwacho
+     wacho+V+Cond+ScPl3: kagiwacho
+
+#
+     wacho+V+Cond+ScSg2+OcSg1: kiwachona
+     wacho+V+Cond+ScSg3+OcSg1: kowachona
+     wacho+V+Cond+ScPl2+OcSg1: kauwachona
+     wacho+V+Cond+ScPl3+OcSg1: kagiwachona
+#
+     wacho+V+Cond+ScSg1+OcSg2: kawachoni
+     wacho+V+Cond+ScSg3+OcSg2: kowachoni
+     wacho+V+Cond+ScPl1+OcSg2: kawawachoni
+     wacho+V+Cond+ScPl3+OcSg2: kagiwachoni
+#
+     wacho+V+Cond+ScSg1+OcSg3: kawachone
+     wacho+V+Cond+ScSg2+OcSg3: kiwachone
+     wacho+V+Cond+ScSg3+OcSg3: kowachone
+     wacho+V+Cond+ScPl1+OcSg3: kawawachone
+     wacho+V+Cond+ScPl2+OcSg3: kauwachone
+     wacho+V+Cond+ScPl3+OcSg3: kagiwachone
+#
+     wacho+V+Cond+ScSg1+OcPl1: kawachonwa
+     wacho+V+Cond+ScSg2+OcPl1: kiwachonwa
+     wacho+V+Cond+ScSg3+OcPl1: kowachonwa
+     wacho+V+Cond+ScPl2+OcPl1: kauwachonwa
+     wacho+V+Cond+ScPl3+OcPl1: kagiwachonwa
+#
+     wacho+V+Cond+ScSg1+OcPl2: kawachonu
+     wacho+V+Cond+ScSg3+OcPl2: kowachonu
+     wacho+V+Cond+ScPl1+OcPl2: kawawachonu
+     wacho+V+Cond+ScPl3+OcPl2: kagiwachonu
+#
+     wacho+V+Cond+ScSg1+OcPl3: kawachogi
+     wacho+V+Cond+ScSg2+OcPl3: kiwachogi
+     wacho+V+Cond+ScSg3+OcPl3: kowachogi
+     wacho+V+Cond+ScPl1+OcPl3: kawawachogi
+     wacho+V+Cond+ScPl2+OcPl3: kauwachogi
+     wacho+V+Cond+ScPl3+OcPl3: kagiwachogi
+#
+     wacho+V+Ind+PluPrf+ScSg1: nasewacho
+     wacho+V+Ind+PluPrf+ScSg2: nisewacho
+     wacho+V+Ind+PluPrf+ScSg3: nosewacho
+     wacho+V+Ind+PluPrf+ScPl1: newasewacho
+     wacho+V+Ind+PluPrf+ScPl2: neusewacho
+     wacho+V+Ind+PluPrf+ScPl3: negisewacho
+
+     wacho+V+Ind+PluPrf+ScSg2+OcSg1: nisewachona
+     wacho+V+Ind+PluPrf+ScSg3+OcSg1: nosewachona
+     wacho+V+Ind+PluPrf+ScPl2+OcSg1: neusewachona
+     wacho+V+Ind+PluPrf+ScPl3+OcSg1: negisewachona
+#
+     wacho+V+Ind+PluPrf+ScSg1+OcSg2: nasewachoni
+     wacho+V+Ind+PluPrf+ScSg3+OcSg2: nosewachoni
+     wacho+V+Ind+PluPrf+ScPl1+OcSg2: newasewachoni
+     wacho+V+Ind+PluPrf+ScPl3+OcSg2: negisewachoni
+#
+     wacho+V+Ind+PluPrf+ScSg1+OcSg3: nasewachone
+     wacho+V+Ind+PluPrf+ScSg2+OcSg3: nisewachone
+     wacho+V+Ind+PluPrf+ScSg3+OcSg3: nosewachone
+     wacho+V+Ind+PluPrf+ScPl1+OcSg3: newasewachone
+     wacho+V+Ind+PluPrf+ScPl2+OcSg3: neusewachone
+     wacho+V+Ind+PluPrf+ScPl3+OcSg3: negisewachone
+#
+     wacho+V+Ind+PluPrf+ScSg1+OcPl1: nasewachonwa
+     wacho+V+Ind+PluPrf+ScSg2+OcPl1: nisewachonwa
+     wacho+V+Ind+PluPrf+ScSg3+OcPl1: nosewachonwa
+     wacho+V+Ind+PluPrf+ScPl2+OcPl1: neusewachonwa
+     wacho+V+Ind+PluPrf+ScPl3+OcPl1: negisewachonwa
+#
+     wacho+V+Ind+PluPrf+ScSg1+OcPl2: nasewachou
+     wacho+V+Ind+PluPrf+ScSg3+OcPl2: nosewachou
+     wacho+V+Ind+PluPrf+ScPl1+OcPl2: newasewachou
+     wacho+V+Ind+PluPrf+ScPl3+OcPl2: negisewachou
+#
+     wacho+V+Ind+PluPrf+ScSg1+OcPl3: nasewachogi
+     wacho+V+Ind+PluPrf+ScSg2+OcPl3: nisewachogi
+     wacho+V+Ind+PluPrf+ScSg3+OcPl3: nosewachogi
+     wacho+V+Ind+PluPrf+ScPl1+OcPl3: newasewachogi
+     wacho+V+Ind+PluPrf+ScPl2+OcPl3: neusewachogi
+     wacho+V+Ind+PluPrf+ScPl3+OcPl3: negisewachogi
+

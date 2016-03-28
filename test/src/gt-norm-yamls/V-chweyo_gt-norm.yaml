@@ -1,0 +1,285 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - chweyo: # Verb 'to create' - full paradigm
+     chweyo+V+Inf: chweyo
+     chweyo+V+Ind+Prt+ScSg1: nachweyo
+     chweyo+V+Ind+Prt+ScSg2: nichweyo
+     chweyo+V+Ind+Prt+ScSg3: nochweyo
+     chweyo+V+Ind+Prt+ScPl1: newachweyo
+     chweyo+V+Ind+Prt+ScPl2: neuchweyo
+     chweyo+V+Ind+Prt+ScPl3: negichweyo
+
+#
+     chweyo+V+Ind+Prt+ScSg2+OcSg1: nichweya
+     chweyo+V+Ind+Prt+ScSg3+OcSg1: nochweya
+     chweyo+V+Ind+Prt+ScPl2+OcSg1: neuchweya
+     chweyo+V+Ind+Prt+ScPl3+OcSg1: negichweya
+#
+     chweyo+V+Ind+Prt+ScSg1+OcSg2: nachweyi
+     chweyo+V+Ind+Prt+ScSg3+OcSg2: nochweyi
+     chweyo+V+Ind+Prt+ScPl1+OcSg2: newachweyi
+     chweyo+V+Ind+Prt+ScPl3+OcSg2: negichweyi
+#
+     chweyo+V+Ind+Prt+ScSg1+OcSg3: nachweye
+     chweyo+V+Ind+Prt+ScSg2+OcSg3: nichweye
+     chweyo+V+Ind+Prt+ScSg3+OcSg3: nochweye
+     chweyo+V+Ind+Prt+ScPl1+OcSg3: newachweye
+     chweyo+V+Ind+Prt+ScPl2+OcSg3: neuchweye
+     chweyo+V+Ind+Prt+ScPl3+OcSg3: negichweye
+#
+     chweyo+V+Ind+Prt+ScSg1+OcPl1: nachwewa
+     chweyo+V+Ind+Prt+ScSg2+OcPl1: nichwewa
+     chweyo+V+Ind+Prt+ScSg3+OcPl1: nochwewa
+     chweyo+V+Ind+Prt+ScPl2+OcPl1: neuchwewa
+     chweyo+V+Ind+Prt+ScPl3+OcPl1: negichwewa
+#
+     chweyo+V+Ind+Prt+ScSg1+OcPl2: [nachweu, nachweyou]
+     chweyo+V+Ind+Prt+ScSg3+OcPl2: [nochweu, nochweyou]
+     chweyo+V+Ind+Prt+ScPl1+OcPl2: [newachweu, newachweyou]
+     chweyo+V+Ind+Prt+ScPl3+OcPl2: [negichweu, negichweyou]
+#
+     chweyo+V+Ind+Prt+ScSg1+OcPl3: nachweyogi
+     chweyo+V+Ind+Prt+ScSg2+OcPl3: nichweyogi
+     chweyo+V+Ind+Prt+ScSg3+OcPl3: nochweyogi
+     chweyo+V+Ind+Prt+ScPl1+OcPl3: newachweyogi
+     chweyo+V+Ind+Prt+ScPl2+OcPl3: neuchweyogi
+     chweyo+V+Ind+Prt+ScPl3+OcPl3: negichweyogi
+
+#  reflexive
+     chweyo+V+Ind+Prt+ScSg1+RcSg1: nachwera
+     chweyo+V+Ind+Prt+ScSg2+RcSg2: nichweri
+     chweyo+V+Ind+Prt+ScSg3+RcSg3: nochwere
+     chweyo+V+Ind+Prt+ScPl1+RcPl1: newachwere
+     chweyo+V+Ind+Prt+ScSg2+RcPl2: nichwere
+     chweyo+V+Ind+Prt+ScPl2+RcPl2: neuchwere
+     chweyo+V+Ind+Prt+ScPl3+RcPl3: negichwere
+
+## i- present continuative
+
+     chweyo+V+Ind+PrsCont+ScSg1: achweyo
+     chweyo+V+Ind+PrsCont+ScSg2: ichweyo
+     chweyo+V+Ind+PrsCont+ScSg3: ochweyo
+     chweyo+V+Ind+PrsCont+ScPl1: wachweyo
+     chweyo+V+Ind+PrsCont+ScPl2: uchweyo
+     chweyo+V+Ind+PrsCont+ScPl3: gichweyo
+
+#
+     chweyo+V+Ind+PrsCont+ScSg2+OcSg1: ichweya
+     chweyo+V+Ind+PrsCont+ScSg3+OcSg1: ochweya
+     chweyo+V+Ind+PrsCont+ScPl2+OcSg1: uchweya
+     chweyo+V+Ind+PrsCont+ScPl3+OcSg1: gichweya
+#
+     chweyo+V+Ind+PrsCont+ScSg1+OcSg2: achweyi
+     chweyo+V+Ind+PrsCont+ScSg3+OcSg2: ochweyi
+     chweyo+V+Ind+PrsCont+ScPl1+OcSg2: wachweyi
+     chweyo+V+Ind+PrsCont+ScPl3+OcSg2: gichweyi
+#
+     chweyo+V+Ind+PrsCont+ScSg1+OcSg3: achweye
+     chweyo+V+Ind+PrsCont+ScSg2+OcSg3: ichweye
+     chweyo+V+Ind+PrsCont+ScSg3+OcSg3: ochweye
+     chweyo+V+Ind+PrsCont+ScPl1+OcSg3: wachweye
+     chweyo+V+Ind+PrsCont+ScPl2+OcSg3: uchweye
+     chweyo+V+Ind+PrsCont+ScPl3+OcSg3: gichweye
+#
+     chweyo+V+Ind+PrsCont+ScSg1+OcPl1: achwewa
+     chweyo+V+Ind+PrsCont+ScSg2+OcPl1: ichwewa
+     chweyo+V+Ind+PrsCont+ScSg3+OcPl1: ochwewa
+     chweyo+V+Ind+PrsCont+ScPl2+OcPl1: uchwewa
+     chweyo+V+Ind+PrsCont+ScPl3+OcPl1: gichwewa
+#
+     chweyo+V+Ind+PrsCont+ScSg1+OcPl2: [achweu, chweyou]
+     chweyo+V+Ind+PrsCont+ScSg3+OcPl2: [ochweu, ochweyou]
+     chweyo+V+Ind+PrsCont+ScPl1+OcPl2: [wachweu, wachweyou]
+     chweyo+V+Ind+PrsCont+ScPl3+OcPl2: [gichweu, gichweyou]
+#
+     chweyo+V+Ind+PrsCont+ScSg1+OcPl3: achweyogi
+     chweyo+V+Ind+PrsCont+ScSg2+OcPl3: ichweyogi
+     chweyo+V+Ind+PrsCont+ScSg3+OcPl3: ochweyogi
+     chweyo+V+Ind+PrsCont+ScPl1+OcPl3: wachweyogi
+     chweyo+V+Ind+PrsCont+ScPl2+OcPl3: uchweyogi
+     chweyo+V+Ind+PrsCont+ScPl3+OcPl3: gichweyogi
+
+#  reflexive
+     chweyo+V+Ind+PrsCont+ScSg1+RcSg1: achwera
+     chweyo+V+Ind+PrsCont+ScSg2+RcSg2: ichweri
+     chweyo+V+Ind+PrsCont+ScSg3+RcSg3: ochwere
+     chweyo+V+Ind+PrsCont+ScPl1+RcPl1: wachwere
+     chweyo+V+Ind+PrsCont+ScSg2+RcPl2: ichwere
+     chweyo+V+Ind+PrsCont+ScPl2+RcPl2: uchwere
+     chweyo+V+Ind+PrsCont+ScPl3+RcPl3: gichwere
+
+##ibro- future
+
+     chweyo+V+Ind+Fut+ScSg1: abrochweyo
+     chweyo+V+Ind+Fut+ScSg2: ibrochweyo
+     chweyo+V+Ind+Fut+ScSg3: obrochweyo
+     chweyo+V+Ind+Fut+ScPl1: wabrochweyo
+     chweyo+V+Ind+Fut+ScPl2: ubrochweyo
+     chweyo+V+Ind+Fut+ScPl3: gibrochweyo
+
+#
+     chweyo+V+Ind+Fut+ScSg2+OcSg1: ibrochweya
+     chweyo+V+Ind+Fut+ScSg3+OcSg1: obrochweya
+     chweyo+V+Ind+Fut+ScPl2+OcSg1: ubrochweya
+     chweyo+V+Ind+Fut+ScPl3+OcSg1: gibrochweya
+#
+     chweyo+V+Ind+Fut+ScSg1+OcSg2: abrochweyi
+     chweyo+V+Ind+Fut+ScSg3+OcSg2: obrochweyi
+     chweyo+V+Ind+Fut+ScPl1+OcSg2: wabrochweyi
+     chweyo+V+Ind+Fut+ScPl3+OcSg2: gibrochweyi
+#
+     chweyo+V+Ind+Fut+ScSg1+OcSg3: abrochweye
+     chweyo+V+Ind+Fut+ScSg2+OcSg3: ibrochweye
+     chweyo+V+Ind+Fut+ScSg3+OcSg3: obrochweye
+     chweyo+V+Ind+Fut+ScPl1+OcSg3: wabrochweye
+     chweyo+V+Ind+Fut+ScPl2+OcSg3: ubrochweye
+     chweyo+V+Ind+Fut+ScPl3+OcSg3: gibrochweye
+#
+     chweyo+V+Ind+Fut+ScSg1+OcPl1: abrochwewa
+     chweyo+V+Ind+Fut+ScSg2+OcPl1: ibrochwewa
+     chweyo+V+Ind+Fut+ScSg3+OcPl1: obrochwewa
+     chweyo+V+Ind+Fut+ScPl2+OcPl1: ubrochwewa
+     chweyo+V+Ind+Fut+ScPl3+OcPl1: gibrochwewa
+#
+     chweyo+V+Ind+Fut+ScSg1+OcPl2: [abrochweu, abrochweyou]
+     chweyo+V+Ind+Fut+ScSg3+OcPl2: [obrochweu, obrochweyou]
+     chweyo+V+Ind+Fut+ScPl1+OcPl2: [wabrochweu, wabrochweyou]
+     chweyo+V+Ind+Fut+ScPl3+OcPl2: [gibrochweu, gibrochweyou]
+#
+     chweyo+V+Ind+Fut+ScSg1+OcPl3: abrochweyogi
+     chweyo+V+Ind+Fut+ScSg2+OcPl3: ibrochweyogi
+     chweyo+V+Ind+Fut+ScSg3+OcPl3: obrochweyogi
+     chweyo+V+Ind+Fut+ScPl1+OcPl3: wabrochweyogi
+     chweyo+V+Ind+Fut+ScPl2+OcPl3: ubrochweyogi
+     chweyo+V+Ind+Fut+ScPl3+OcPl3: gibrochweyogi
+
+#  reflexive
+     chweyo+V+Ind+Fut+ScSg1+RcSg1: abrochwera
+     chweyo+V+Ind+Fut+ScSg2+RcSg2: ibrochweri
+     chweyo+V+Ind+Fut+ScSg3+RcSg3: obrochwere
+     chweyo+V+Ind+Fut+ScPl1+RcPl1: wabrochwere
+     chweyo+V+Ind+Fut+ScSg2+RcPl2: ibrochwere
+     chweyo+V+Ind+Fut+ScPl2+RcPl2: ubrochwere
+     chweyo+V+Ind+Fut+ScPl3+RcPl3: gibrochwere
+
+## CONDITION
+
+     chweyo+V+Cond+ScSg1: kachweyo
+     chweyo+V+Cond+ScSg2: kichweyo
+     chweyo+V+Cond+ScSg3: kochweyo
+     chweyo+V+Cond+ScPl1: kawachweyo
+     chweyo+V+Cond+ScPl2: kauchweyo
+     chweyo+V+Cond+ScPl3: kagichweyo
+
+#
+     chweyo+V+Cond+ScSg2+OcSg1: kichweya
+     chweyo+V+Cond+ScSg3+OcSg1: kochweya
+     chweyo+V+Cond+ScPl2+OcSg1: kauchweya
+     chweyo+V+Cond+ScPl3+OcSg1: kagichweya
+#
+     chweyo+V+Cond+ScSg1+OcSg2: kachweyi
+     chweyo+V+Cond+ScSg3+OcSg2: kochweyi
+     chweyo+V+Cond+ScPl1+OcSg2: kawachweyi
+     chweyo+V+Cond+ScPl3+OcSg2: kagichweyi
+#
+     chweyo+V+Cond+ScSg1+OcSg3: kachweye
+     chweyo+V+Cond+ScSg2+OcSg3: kichweye
+     chweyo+V+Cond+ScSg3+OcSg3: kochweye
+     chweyo+V+Cond+ScPl1+OcSg3: kawachweye
+     chweyo+V+Cond+ScPl2+OcSg3: kauchweye
+     chweyo+V+Cond+ScPl3+OcSg3: kagichweye
+#
+     chweyo+V+Cond+ScSg1+OcPl1: kachwewa
+     chweyo+V+Cond+ScSg2+OcPl1: kichwewa
+     chweyo+V+Cond+ScSg3+OcPl1: kochwewa
+     chweyo+V+Cond+ScPl2+OcPl1: kauchwewa
+     chweyo+V+Cond+ScPl3+OcPl1: kagichwewa
+#
+     chweyo+V+Cond+ScSg1+OcPl2: [kachweu, kachweyou]
+     chweyo+V+Cond+ScSg3+OcPl2: [kochweu, kochweyou]
+     chweyo+V+Cond+ScPl1+OcPl2: [kawachweu, kawachweyou]
+     chweyo+V+Cond+ScPl3+OcPl2: [kagichweu, kagichweyou]
+#
+     chweyo+V+Cond+ScSg1+OcPl3: kachweyogi
+     chweyo+V+Cond+ScSg2+OcPl3: kichweyogi
+     chweyo+V+Cond+ScSg3+OcPl3: kochweyogi
+     chweyo+V+Cond+ScPl1+OcPl3: kawachweyogi
+     chweyo+V+Cond+ScPl2+OcPl3: kauchweyogi
+     chweyo+V+Cond+ScPl3+OcPl3: kagichweyogi
+
+#  reflexive
+     chweyo+V+Ind+Cond+ScSg1+RcSg1: kachwera
+     chweyo+V+Ind+Cond+ScSg2+RcSg2: kichweri
+     chweyo+V+Ind+Cond+ScSg3+RcSg3: kochwere
+     chweyo+V+Ind+Cond+ScPl1+RcPl1: kawachwere
+     chweyo+V+Ind+Cond+ScSg2+RcPl2: kichwere
+     chweyo+V+Ind+Cond+ScPl2+RcPl2: kauchwere
+     chweyo+V+Ind+Cond+ScPl3+RcPl3: kagichwere
+
+# Preterite 2
+     chweyo+V+Ind+Prt2+ScSg1: nasechweyo
+     chweyo+V+Ind+Prt2+ScSg2: nisechweyo
+     chweyo+V+Ind+Prt2+ScSg3: nosechweyo
+     chweyo+V+Ind+Prt2+ScPl1: newasechweyo
+     chweyo+V+Ind+Prt2+ScPl2: neusechweyo
+     chweyo+V+Ind+Prt2+ScPl3: negisechweyo
+
+#
+     chweyo+V+Ind+Prt2+ScSg2+OcSg1: nisechweya
+     chweyo+V+Ind+Prt2+ScSg3+OcSg1: nosechweya
+     chweyo+V+Ind+Prt2+ScPl2+OcSg1: neusechweya
+     chweyo+V+Ind+Prt2+ScPl3+OcSg1: negisechweya
+#
+     chweyo+V+Ind+Prt2+ScSg1+OcSg2: nasechweyi
+     chweyo+V+Ind+Prt2+ScSg3+OcSg2: nosechweyi
+     chweyo+V+Ind+Prt2+ScPl1+OcSg2: newasechweyi
+     chweyo+V+Ind+Prt2+ScPl3+OcSg2: negisechweyi
+#
+     chweyo+V+Ind+Prt2+ScSg1+OcSg3: nasechweye
+     chweyo+V+Ind+Prt2+ScSg2+OcSg3: nisechweye
+     chweyo+V+Ind+Prt2+ScSg3+OcSg3: nosechweye
+     chweyo+V+Ind+Prt2+ScPl1+OcSg3: newasechweye
+     chweyo+V+Ind+Prt2+ScPl2+OcSg3: neusechweye
+     chweyo+V+Ind+Prt2+ScPl3+OcSg3: negisechweye
+#
+     chweyo+V+Ind+Prt2+ScSg1+OcPl1: nasechwewa
+     chweyo+V+Ind+Prt2+ScSg2+OcPl1: nisechwewa
+     chweyo+V+Ind+Prt2+ScSg3+OcPl1: nosechwewa
+     chweyo+V+Ind+Prt2+ScPl2+OcPl1: neusechwewa
+     chweyo+V+Ind+Prt2+ScPl3+OcPl1: negisechwewa
+#
+     chweyo+V+Ind+Prt2+ScSg1+OcPl2: [nasechweu, nasechweyou]
+     chweyo+V+Ind+Prt2+ScSg3+OcPl2: [nosechweu, nosechweyou]
+     chweyo+V+Ind+Prt2+ScPl1+OcPl2: [newasechweu, newasechweyou]
+     chweyo+V+Ind+Prt2+ScPl3+OcPl2: [negisechweu, negisechweyou]
+#
+     chweyo+V+Ind+Prt2+ScSg1+OcPl3: nasechweyogi
+     chweyo+V+Ind+Prt2+ScSg2+OcPl3: nisechweyogi
+     chweyo+V+Ind+Prt2+ScSg3+OcPl3: nosechweyogi
+     chweyo+V+Ind+Prt2+ScPl1+OcPl3: newasechweyogi
+     chweyo+V+Ind+Prt2+ScPl2+OcPl3: neusechweyogi
+     chweyo+V+Ind+Prt2+ScPl3+OcPl3: negisechweyogi
+
+#  reflexive
+     chweyo+V+Ind+Prt2+ScSg1+RcSg1: nasechwera
+     chweyo+V+Ind+Prt2+ScSg2+RcSg2: nisechweri
+     chweyo+V+Ind+Prt2+ScSg3+RcSg3: nosechwere
+     chweyo+V+Ind+Prt2+ScPl1+RcPl1: newasechwere
+     chweyo+V+Ind+Prt2+ScSg2+RcPl2: nisechwere
+     chweyo+V+Ind+Prt2+ScPl2+RcPl2: neusechwere
+     chweyo+V+Ind+Prt2+ScPl3+RcPl3: negisechwere
+

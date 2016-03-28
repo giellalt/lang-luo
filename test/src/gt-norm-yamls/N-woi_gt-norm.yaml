@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - woi: # Noun 'boy; son' - full paradigm
+     woi+N+Sg: woi
+     woi+N+Sg+DemDistal: wodcha
+     woi+N+Sg+DemProx: wodno
+     woi+N+Sg+DemEgo: wodni
+     woi+N+Sg+PxSg1: woda
+     woi+N+Sg+PxSg2: wodi
+     woi+N+Sg+PxSg3: wode
+     woi+N+Sg+PxPl1: wodwa
+     woi+N+Sg+PxPl2: wodu
+     woi+N+Sg+PxPl3: wodgi
+
+     woi+N+Pl: yawoi
+     woi+N+Pl+DemDistal: yawoika
+     woi+N+Pl+DemProx: yawoigo
+     woi+N+Pl+DemEgo: yawoigi
+     woi+N+Pl+PxSg1: yawota
+     woi+N+Pl+PxSg2: yawoti
+     woi+N+Pl+PxSg3: yawote
+     woi+N+Pl+PxPl1: yawotwa
+     woi+N+Pl+PxPl2: yawotu
+     woi+N+Pl+PxPl3: yawotgi

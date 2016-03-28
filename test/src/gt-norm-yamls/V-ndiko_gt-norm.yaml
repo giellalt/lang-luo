@@ -1,0 +1,682 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+# object conjugation involves direct and indirect object
+
+  Verb - ndiko: # Verb 'to write' - full paradigm
+     ndiko+V+Inf: ndiko
+     ndiko+V+Ind+Prt+ScSg1: nandiko
+     ndiko+V+Ind+Prt+ScSg2: nindiko
+     ndiko+V+Ind+Prt+ScSg3: nondiko
+     ndiko+V+Ind+Prt+ScPl1: newandiko
+     ndiko+V+Ind+Prt+ScPl2: neundiko
+     ndiko+V+Ind+Prt+ScPl3: negindiko
+
+     ndiko+V+Ind+Prt+ScSg2+OcSg1: nindikona
+     ndiko+V+Ind+Prt+ScSg3+OcSg1: nondikona
+     ndiko+V+Ind+Prt+ScPl2+OcSg1: neundikona
+     ndiko+V+Ind+Prt+ScPl3+OcSg1: negindikona
+#
+     ndiko+V+Ind+Prt+ScSg1+OcSg2: nandikoni
+     ndiko+V+Ind+Prt+ScSg3+OcSg2: nondikoni
+     ndiko+V+Ind+Prt+ScPl1+OcSg2: newandikoni
+     ndiko+V+Ind+Prt+ScPl3+OcSg2: negindikoni
+#
+     ndiko+V+Ind+Prt+ScSg1+OcSg3: nandikone
+     ndiko+V+Ind+Prt+ScSg2+OcSg3: nindikone
+     ndiko+V+Ind+Prt+ScSg3+OcSg3: nondikone
+     ndiko+V+Ind+Prt+ScPl1+OcSg3: newandikone
+     ndiko+V+Ind+Prt+ScPl2+OcSg3: neundikone
+     ndiko+V+Ind+Prt+ScPl3+OcSg3: negindikone
+#
+     ndiko+V+Ind+Prt+ScSg1+OcPl1: nandikonwa
+     ndiko+V+Ind+Prt+ScSg2+OcPl1: nindikonwa
+     ndiko+V+Ind+Prt+ScSg3+OcPl1: nondikonwa
+     ndiko+V+Ind+Prt+ScPl2+OcPl1: neundikonwa
+     ndiko+V+Ind+Prt+ScPl3+OcPl1: negindikonwa
+#
+     ndiko+V+Ind+Prt+ScSg1+OcPl2: nandikou
+     ndiko+V+Ind+Prt+ScSg3+OcPl2: nondikou
+     ndiko+V+Ind+Prt+ScPl1+OcPl2: newandikou
+     ndiko+V+Ind+Prt+ScPl3+OcPl2: negindikou
+#
+     ndiko+V+Ind+Prt+ScSg1+OcPl3: nandikogi
+     ndiko+V+Ind+Prt+ScSg2+OcPl3: nindikogi
+     ndiko+V+Ind+Prt+ScSg3+OcPl3: nondikogi
+     ndiko+V+Ind+Prt+ScPl1+OcPl3: newandikogi
+     ndiko+V+Ind+Prt+ScPl2+OcPl3: neundikogi
+     ndiko+V+Ind+Prt+ScPl3+OcPl3: negindikogi
+
+
+## 0%< Indicative present continuative
+
+     ndiko+V+Ind+Prs+ScSg1: andiko
+     ndiko+V+Ind+Prs+ScSg2: indiko
+     ndiko+V+Ind+Prs+ScSg3: ondiko
+     ndiko+V+Ind+Prs+ScPl1: wandiko
+     ndiko+V+Ind+Prs+ScPl2: undiko
+     ndiko+V+Ind+Prs+ScPl3: gindiko
+
+#
+     ndiko+V+Ind+Prs+ScSg2+OcSg1: indikona
+     ndiko+V+Ind+Prs+ScSg3+OcSg1: ondikona
+     ndiko+V+Ind+Prs+ScPl2+OcSg1: undikona
+     ndiko+V+Ind+Prs+ScPl3+OcSg1: gindikona
+#
+     ndiko+V+Ind+Prs+ScSg1+OcSg2: andikoni
+     ndiko+V+Ind+Prs+ScSg3+OcSg2: ondikoni
+     ndiko+V+Ind+Prs+ScPl1+OcSg2: wandikoni
+     ndiko+V+Ind+Prs+ScPl3+OcSg2: gindikoni
+#
+     ndiko+V+Ind+Prs+ScSg1+OcSg3: andikone
+     ndiko+V+Ind+Prs+ScSg2+OcSg3: indikone
+     ndiko+V+Ind+Prs+ScSg3+OcSg3: ondikone
+     ndiko+V+Ind+Prs+ScPl1+OcSg3: wandikone
+     ndiko+V+Ind+Prs+ScPl2+OcSg3: undikone
+     ndiko+V+Ind+Prs+ScPl3+OcSg3: gindikone
+#
+     ndiko+V+Ind+Prs+ScSg1+OcPl1: andikonwa
+     ndiko+V+Ind+Prs+ScSg2+OcPl1: indikonwa
+     ndiko+V+Ind+Prs+ScSg3+OcPl1: ondikonwa
+     ndiko+V+Ind+Prs+ScPl2+OcPl1: undikonwa
+     ndiko+V+Ind+Prs+ScPl3+OcPl1: gindikonwa
+#
+     ndiko+V+Ind+Prs+ScSg1+OcPl2: andikou
+     ndiko+V+Ind+Prs+ScSg3+OcPl2: ondikou
+     ndiko+V+Ind+Prs+ScPl1+OcPl2: wandikou
+     ndiko+V+Ind+Prs+ScPl3+OcPl2: gindikou
+#
+     ndiko+V+Ind+Prs+ScSg1+OcPl3: andikogi
+     ndiko+V+Ind+Prs+ScSg2+OcPl3: indikogi
+     ndiko+V+Ind+Prs+ScSg3+OcPl3: ondikogi
+     ndiko+V+Ind+Prs+ScPl1+OcPl3: wandikogi
+     ndiko+V+Ind+Prs+ScPl2+OcPl3: undikogi
+     ndiko+V+Ind+Prs+ScPl3+OcPl3: gindikogi
+
+##-biro-/-bro-/-bo- Indicative future
+
+     ndiko+V+Ind+Fut+ScSg1: abrondiko
+     ndiko+V+Ind+Fut+ScSg2: ibrondiko
+     ndiko+V+Ind+Fut+ScSg3: obrondiko
+     ndiko+V+Ind+Fut+ScPl1: wabrondiko
+     ndiko+V+Ind+Fut+ScPl2: ubrondiko
+     ndiko+V+Ind+Fut+ScPl3: gibrondiko
+
+#
+     ndiko+V+Ind+Fut+ScSg2+OcSg1: ibrondikona
+     ndiko+V+Ind+Fut+ScSg3+OcSg1: obrondikona
+     ndiko+V+Ind+Fut+ScPl2+OcSg1: ubrondikona
+     ndiko+V+Ind+Fut+ScPl3+OcSg1: gibrondikona
+#
+     ndiko+V+Ind+Fut+ScSg1+OcSg2: abrondikoni
+     ndiko+V+Ind+Fut+ScSg3+OcSg2: obrondikoni
+     ndiko+V+Ind+Fut+ScPl1+OcSg2: wabrondikoni
+     ndiko+V+Ind+Fut+ScPl3+OcSg2: gibrondikoni
+#
+     ndiko+V+Ind+Fut+ScSg1+OcSg3: abrondikone
+     ndiko+V+Ind+Fut+ScSg2+OcSg3: ibrondikone
+     ndiko+V+Ind+Fut+ScSg3+OcSg3: obrondikone
+     ndiko+V+Ind+Fut+ScPl1+OcSg3: wabrondikone
+     ndiko+V+Ind+Fut+ScPl2+OcSg3: ubrondikone
+     ndiko+V+Ind+Fut+ScPl3+OcSg3: gibrondikone
+#
+     ndiko+V+Ind+Fut+ScSg1+OcPl1: abrondikonwa
+     ndiko+V+Ind+Fut+ScSg2+OcPl1: ibrondikonwa
+     ndiko+V+Ind+Fut+ScSg3+OcPl1: obrondikonwa
+     ndiko+V+Ind+Fut+ScPl2+OcPl1: ubrondikonwa
+     ndiko+V+Ind+Fut+ScPl3+OcPl1: gibrondikonwa
+#
+     ndiko+V+Ind+Fut+ScSg1+OcPl2: abrondikou
+     ndiko+V+Ind+Fut+ScSg3+OcPl2: obrondikou
+     ndiko+V+Ind+Fut+ScPl1+OcPl2: wabrondikou
+     ndiko+V+Ind+Fut+ScPl3+OcPl2: gibrondikou
+#
+     ndiko+V+Ind+Fut+ScSg1+OcPl3: abrondikogi
+     ndiko+V+Ind+Fut+ScSg2+OcPl3: ibrondikogi
+     ndiko+V+Ind+Fut+ScSg3+OcPl3: obrondikogi
+     ndiko+V+Ind+Fut+ScPl1+OcPl3: wabrondikogi
+     ndiko+V+Ind+Fut+ScPl2+OcPl3: ubrondikogi
+     ndiko+V+Ind+Fut+ScPl3+OcPl3: gibrondikogi
+
+## Optative present I may write
+# dipop%< 
+     ndiko+V+Opt+Prs+ScSg1: dipopandiko
+     ndiko+V+Opt+Prs+ScSg2: dipopindiko
+     ndiko+V+Opt+Prs+ScSg3: dipopondiko
+     ndiko+V+Opt+Prs+ScPl1: dipopwandiko
+     ndiko+V+Opt+Prs+ScPl2: dipopundiko
+     ndiko+V+Opt+Prs+ScPl3: dipopgindiko
+
+#
+     ndiko+V+Opt+Prs+ScSg2+OcSg1: dipopindikona
+     ndiko+V+Opt+Prs+ScSg3+OcSg1: dipopondikona
+     ndiko+V+Opt+Prs+ScPl2+OcSg1: dipopundikona
+     ndiko+V+Opt+Prs+ScPl3+OcSg1: dipopgindikona
+#
+     ndiko+V+Opt+Prs+ScSg1+OcSg2: dipopandikoni
+     ndiko+V+Opt+Prs+ScSg3+OcSg2: dipopondikoni
+     ndiko+V+Opt+Prs+ScPl1+OcSg2: dipopwandikoni
+     ndiko+V+Opt+Prs+ScPl3+OcSg2: dipopgindikoni
+#
+     ndiko+V+Opt+Prs+ScSg1+OcSg3: dipopandikone
+     ndiko+V+Opt+Prs+ScSg2+OcSg3: dipopindikone
+     ndiko+V+Opt+Prs+ScSg3+OcSg3: dipopondikone
+     ndiko+V+Opt+Prs+ScPl1+OcSg3: dipopwandikone
+     ndiko+V+Opt+Prs+ScPl2+OcSg3: dipopundikone
+     ndiko+V+Opt+Prs+ScPl3+OcSg3: dipopgindikone
+#
+     ndiko+V+Opt+Prs+ScSg1+OcPl1: dipopandikonwa
+     ndiko+V+Opt+Prs+ScSg2+OcPl1: dipopindikonwa
+     ndiko+V+Opt+Prs+ScSg3+OcPl1: dipopondikonwa
+     ndiko+V+Opt+Prs+ScPl2+OcPl1: dipopundikonwa
+     ndiko+V+Opt+Prs+ScPl3+OcPl1: dipopgindikonwa
+#
+     ndiko+V+Opt+Prs+ScSg1+OcPl2: dipopandikou
+     ndiko+V+Opt+Prs+ScSg3+OcPl2: dipopondikou
+     ndiko+V+Opt+Prs+ScPl1+OcPl2: dipopwandikou
+     ndiko+V+Opt+Prs+ScPl3+OcPl2: dipopgindikou
+#
+     ndiko+V+Opt+Prs+ScSg1+OcPl3: dipopandikogi
+     ndiko+V+Opt+Prs+ScSg2+OcPl3: dipopindikogi
+     ndiko+V+Opt+Prs+ScSg3+OcPl3: dipopondikogi
+     ndiko+V+Opt+Prs+ScPl1+OcPl3: dipopwandikogi
+     ndiko+V+Opt+Prs+ScPl2+OcPl3: dipopundikogi
+     ndiko+V+Opt+Prs+ScPl3+OcPl3: dipopgindikogi
+
+
+## CONDITION If I write
+
+     ndiko+V+Cond+ScSg1: kandiko
+     ndiko+V+Cond+ScSg2: kindiko
+     ndiko+V+Cond+ScSg3: kondiko
+     ndiko+V+Cond+ScPl1: kawandiko
+     ndiko+V+Cond+ScPl2: kaundiko
+     ndiko+V+Cond+ScPl3: kagindiko
+
+#
+     ndiko+V+Cond+ScSg2+OcSg1: kindikona
+     ndiko+V+Cond+ScSg3+OcSg1: kondikona
+     ndiko+V+Cond+ScPl2+OcSg1: kaundikona
+     ndiko+V+Cond+ScPl3+OcSg1: kagindikona
+#
+     ndiko+V+Cond+ScSg1+OcSg2: kandikoni
+     ndiko+V+Cond+ScSg3+OcSg2: kondikoni
+     ndiko+V+Cond+ScPl1+OcSg2: kawandikoni
+     ndiko+V+Cond+ScPl3+OcSg2: kagindikoni
+#
+     ndiko+V+Cond+ScSg1+OcSg3: kandikone
+     ndiko+V+Cond+ScSg2+OcSg3: kindikone
+     ndiko+V+Cond+ScSg3+OcSg3: kondikone
+     ndiko+V+Cond+ScPl1+OcSg3: kawandikone
+     ndiko+V+Cond+ScPl2+OcSg3: kaundikone
+     ndiko+V+Cond+ScPl3+OcSg3: kagindikone
+#
+     ndiko+V+Cond+ScSg1+OcPl1: kandikonwa
+     ndiko+V+Cond+ScSg2+OcPl1: kindikonwa
+     ndiko+V+Cond+ScSg3+OcPl1: kondikonwa
+     ndiko+V+Cond+ScPl2+OcPl1: kaundikonwa
+     ndiko+V+Cond+ScPl3+OcPl1: kagindikonwa
+#
+     ndiko+V+Cond+ScSg1+OcPl2: kandikonu
+     ndiko+V+Cond+ScSg3+OcPl2: kondikonu
+     ndiko+V+Cond+ScPl1+OcPl2: kawandikonu
+     ndiko+V+Cond+ScPl3+OcPl2: kagindikonu
+#
+     ndiko+V+Cond+ScSg1+OcPl3: kandikogi
+     ndiko+V+Cond+ScSg2+OcPl3: kindikogi
+     ndiko+V+Cond+ScSg3+OcPl3: kondikogi
+     ndiko+V+Cond+ScPl1+OcPl3: kawandikogi
+     ndiko+V+Cond+ScPl2+OcPl3: kaundikogi
+     ndiko+V+Cond+ScPl3+OcPl3: kagindikogi
+
+# Perfect I have written
+     ndiko+V+Ind+Perf+ScSg1: asendiko
+     ndiko+V+Ind+Perf+ScSg2: isendiko
+     ndiko+V+Ind+Perf+ScSg3: osendiko
+     ndiko+V+Ind+Perf+ScPl1: wasendiko
+     ndiko+V+Ind+Perf+ScPl2: usendiko
+     ndiko+V+Ind+Perf+ScPl3: gisendiko
+
+     ndiko+V+Ind+Perf+ScSg2+OcSg1: isendikona
+     ndiko+V+Ind+Perf+ScSg3+OcSg1: osendikona
+     ndiko+V+Ind+Perf+ScPl2+OcSg1: usendikona
+     ndiko+V+Ind+Perf+ScPl3+OcSg1: gisendikona
+#
+     ndiko+V+Ind+Perf+ScSg1+OcSg2: asendikoni
+     ndiko+V+Ind+Perf+ScSg3+OcSg2: osendikoni
+     ndiko+V+Ind+Perf+ScPl1+OcSg2: wasendikoni
+     ndiko+V+Ind+Perf+ScPl3+OcSg2: gisendikoni
+#
+     ndiko+V+Ind+Perf+ScSg1+OcSg3: asendikone
+     ndiko+V+Ind+Perf+ScSg2+OcSg3: isendikone
+     ndiko+V+Ind+Perf+ScSg3+OcSg3: osendikone
+     ndiko+V+Ind+Perf+ScPl1+OcSg3: wasendikone
+     ndiko+V+Ind+Perf+ScPl2+OcSg3: usendikone
+     ndiko+V+Ind+Perf+ScPl3+OcSg3: gisendikone
+#
+     ndiko+V+Ind+Perf+ScSg1+OcPl1: asendikonwa
+     ndiko+V+Ind+Perf+ScSg2+OcPl1: isendikonwa
+     ndiko+V+Ind+Perf+ScSg3+OcPl1: osendikonwa
+     ndiko+V+Ind+Perf+ScPl2+OcPl1: usendikonwa
+     ndiko+V+Ind+Perf+ScPl3+OcPl1: gisendikonwa
+#
+     ndiko+V+Ind+Perf+ScSg1+OcPl2: asendikou
+     ndiko+V+Ind+Perf+ScSg3+OcPl2: osendikou
+     ndiko+V+Ind+Perf+ScPl1+OcPl2: wasendikou
+     ndiko+V+Ind+Perf+ScPl3+OcPl2: gisendikou
+#
+     ndiko+V+Ind+Perf+ScSg1+OcPl3: asendikogi
+     ndiko+V+Ind+Perf+ScSg2+OcPl3: isendikogi
+     ndiko+V+Ind+Perf+ScSg3+OcPl3: osendikogi
+     ndiko+V+Ind+Perf+ScPl1+OcPl3: wasendikogi
+     ndiko+V+Ind+Perf+ScPl2+OcPl3: usendikogi
+     ndiko+V+Ind+Perf+ScPl3+OcPl3: gisendikogi
+
+##
+# Pluperf I had written
+     ndiko+V+Ind+Pluperf+ScSg1: nasendiko
+     ndiko+V+Ind+Pluperf+ScSg2: nisendiko
+     ndiko+V+Ind+Pluperf+ScSg3: nosendiko
+     ndiko+V+Ind+Pluperf+ScPl1: newasendiko
+     ndiko+V+Ind+Pluperf+ScPl2: neusendiko
+     ndiko+V+Ind+Pluperf+ScPl3: negisendiko
+
+     ndiko+V+Ind+Pluperf+ScSg2+OcSg1: nisendikona
+     ndiko+V+Ind+Pluperf+ScSg3+OcSg1: nosendikona
+     ndiko+V+Ind+Pluperf+ScPl2+OcSg1: neusendikona
+     ndiko+V+Ind+Pluperf+ScPl3+OcSg1: negisendikona
+#
+     ndiko+V+Ind+Pluperf+ScSg1+OcSg2: nasendikoni
+     ndiko+V+Ind+Pluperf+ScSg3+OcSg2: nosendikoni
+     ndiko+V+Ind+Pluperf+ScPl1+OcSg2: newasendikoni
+     ndiko+V+Ind+Pluperf+ScPl3+OcSg2: negisendikoni
+#
+     ndiko+V+Ind+Pluperf+ScSg1+OcSg3: nasendikone
+     ndiko+V+Ind+Pluperf+ScSg2+OcSg3: nisendikone
+     ndiko+V+Ind+Pluperf+ScSg3+OcSg3: nosendikone
+     ndiko+V+Ind+Pluperf+ScPl1+OcSg3: newasendikone
+     ndiko+V+Ind+Pluperf+ScPl2+OcSg3: neusendikone
+     ndiko+V+Ind+Pluperf+ScPl3+OcSg3: negisendikone
+#
+     ndiko+V+Ind+Pluperf+ScSg1+OcPl1: nasendikonwa
+     ndiko+V+Ind+Pluperf+ScSg2+OcPl1: nisendikonwa
+     ndiko+V+Ind+Pluperf+ScSg3+OcPl1: nosendikonwa
+     ndiko+V+Ind+Pluperf+ScPl2+OcPl1: neusendikonwa
+     ndiko+V+Ind+Pluperf+ScPl3+OcPl1: negisendikonwa
+#
+     ndiko+V+Ind+Pluperf+ScSg1+OcPl2: nasendikou
+     ndiko+V+Ind+Pluperf+ScSg3+OcPl2: nosendikou
+     ndiko+V+Ind+Pluperf+ScPl1+OcPl2: newasendikou
+     ndiko+V+Ind+Pluperf+ScPl3+OcPl2: negisendikou
+#
+     ndiko+V+Ind+Pluperf+ScSg1+OcPl3: nasendikogi
+     ndiko+V+Ind+Pluperf+ScSg2+OcPl3: nisendikogi
+     ndiko+V+Ind+Pluperf+ScSg3+OcPl3: nosendikogi
+     ndiko+V+Ind+Pluperf+ScPl1+OcPl3: newasendikogi
+     ndiko+V+Ind+Pluperf+ScPl2+OcPl3: neusendikogi
+     ndiko+V+Ind+Pluperf+ScPl3+OcPl3: negisendikogi
+
+## ?? Conditional I would write
+# d%<
+     ndiko+V+Conditional+ScSg1: dandiko
+     ndiko+V+Conditional+ScSg2: dindiko
+     ndiko+V+Conditional+ScSg3: dondiko
+     ndiko+V+Conditional+ScPl1: dewandiko
+     ndiko+V+Conditional+ScPl2: deundiko
+     ndiko+V+Conditional+ScPl3: degindiko
+
+     ndiko+V+Conditional+ScSg2+OcSg1: dindikona
+     ndiko+V+Conditional+ScSg3+OcSg1: dondikona
+     ndiko+V+Conditional+ScPl2+OcSg1: deundikona
+     ndiko+V+Conditional+ScPl3+OcSg1: degindikona
+#
+     ndiko+V+Conditional+ScSg1+OcSg2: dandikoni
+     ndiko+V+Conditional+ScSg3+OcSg2: dondikoni
+     ndiko+V+Conditional+ScPl1+OcSg2: dewandikoni
+     ndiko+V+Conditional+ScPl3+OcSg2: degindikoni
+#
+     ndiko+V+Conditional+ScSg1+OcSg3: dandikone
+     ndiko+V+Conditional+ScSg2+OcSg3: dindikone
+     ndiko+V+Conditional+ScSg3+OcSg3: dondikone
+     ndiko+V+Conditional+ScPl1+OcSg3: dewandikone
+     ndiko+V+Conditional+ScPl2+OcSg3: deundikone
+     ndiko+V+Conditional+ScPl3+OcSg3: degindikone
+#
+     ndiko+V+Conditional+ScSg1+OcPl1: dandikonwa
+     ndiko+V+Conditional+ScSg2+OcPl1: dindikonwa
+     ndiko+V+Conditional+ScSg3+OcPl1: dondikonwa
+     ndiko+V+Conditional+ScPl2+OcPl1: deundikonwa
+     ndiko+V+Conditional+ScPl3+OcPl1: degindikonwa
+#
+     ndiko+V+Conditional+ScSg1+OcPl2: dandikou
+     ndiko+V+Conditional+ScSg3+OcPl2: dondikou
+     ndiko+V+Conditional+ScPl1+OcPl2: dewandikou
+     ndiko+V+Conditional+ScPl3+OcPl2: degindikou
+#
+     ndiko+V+Conditional+ScSg1+OcPl3: dandikogi
+     ndiko+V+Conditional+ScSg2+OcPl3: dindikogi
+     ndiko+V+Conditional+ScSg3+OcPl3: dondikogi
+     ndiko+V+Conditional+ScPl1+OcPl3: dewandikogi
+     ndiko+V+Conditional+ScPl2+OcPl3: deundikogi
+     ndiko+V+Conditional+ScPl3+OcPl3: degindikogi
+## Present subjunctive I should write
+# oneg/onego
+     ndiko+V+Subj+Prs+ScSg1: onegandiko
+     ndiko+V+Subj+Prs+ScSg2: onegindiko
+     ndiko+V+Subj+Prs+ScSg3: onegondiko
+     ndiko+V+Subj+Prs+ScPl1: onegowandiko
+     ndiko+V+Subj+Prs+ScPl2: onegoundiko
+     ndiko+V+Subj+Prs+ScPl3: onegogindiko
+
+     ndiko+V+Subj+Prs+ScSg2+OcSg1: onegindikona
+     ndiko+V+Subj+Prs+ScSg3+OcSg1: onegondikona
+     ndiko+V+Subj+Prs+ScPl2+OcSg1: onegoundikona
+     ndiko+V+Subj+Prs+ScPl3+OcSg1: onegogindikona
+#
+     ndiko+V+Subj+Prs+ScSg1+OcSg2: onegandikoni
+     ndiko+V+Subj+Prs+ScSg3+OcSg2: onegondikoni
+     ndiko+V+Subj+Prs+ScPl1+OcSg2: onegowandikoni
+     ndiko+V+Subj+Prs+ScPl3+OcSg2: onegogindikoni
+#
+     ndiko+V+Subj+Prs+ScSg1+OcSg3: onegandikone
+     ndiko+V+Subj+Prs+ScSg2+OcSg3: onegindikone
+     ndiko+V+Subj+Prs+ScSg3+OcSg3: onegondikone
+     ndiko+V+Subj+Prs+ScPl1+OcSg3: onegowandikone
+     ndiko+V+Subj+Prs+ScPl2+OcSg3: onegoundikone
+     ndiko+V+Subj+Prs+ScPl3+OcSg3: onegogindikone
+#
+     ndiko+V+Subj+Prs+ScSg1+OcPl1: onegandikonwa
+     ndiko+V+Subj+Prs+ScSg2+OcPl1: onegindikonwa
+     ndiko+V+Subj+Prs+ScSg3+OcPl1: onegondikonwa
+     ndiko+V+Subj+Prs+ScPl2+OcPl1: onegoundikonwa
+     ndiko+V+Subj+Prs+ScPl3+OcPl1: onegogindikonwa
+#
+     ndiko+V+Subj+Prs+ScSg1+OcPl2: onegandikou
+     ndiko+V+Subj+Prs+ScSg3+OcPl2: onegondikou
+     ndiko+V+Subj+Prs+ScPl1+OcPl2: onegowandikou
+     ndiko+V+Subj+Prs+ScPl3+OcPl2: onegogindikou
+#
+     ndiko+V+Subj+Prs+ScSg1+OcPl3: onegandikogi
+     ndiko+V+Subj+Prs+ScSg2+OcPl3: onegindikogi
+     ndiko+V+Subj+Prs+ScSg3+OcPl3: onegondikogi
+     ndiko+V+Subj+Prs+ScPl1+OcPl3: onegowandikogi
+     ndiko+V+Subj+Prs+ScPl2+OcPl3: onegoundikogi
+     ndiko+V+Subj+Prs+ScPl3+OcPl3: onegogindikogi
+## Past Subjunctive I should have written
+# noneg/nonego
+     ndiko+V+Subj+Prt+ScSg1: nonegandiko
+     ndiko+V+Subj+Prt+ScSg2: nonegindiko
+     ndiko+V+Subj+Prt+ScSg3: nonegondiko
+     ndiko+V+Subj+Prt+ScPl1: nonegowandiko
+     ndiko+V+Subj+Prt+ScPl2: nonegoundiko
+     ndiko+V+Subj+Prt+ScPl3: nonegogindiko
+
+     ndiko+V+Subj+Prt+ScSg2+OcSg1: nonegindikona
+     ndiko+V+Subj+Prt+ScSg3+OcSg1: nonegondikona
+     ndiko+V+Subj+Prt+ScPl2+OcSg1: nonegoundikona
+     ndiko+V+Subj+Prt+ScPl3+OcSg1: nonegogindikona
+#
+     ndiko+V+Subj+Prt+ScSg1+OcSg2: nonegandikoni
+     ndiko+V+Subj+Prt+ScSg3+OcSg2: nonegondikoni
+     ndiko+V+Subj+Prt+ScPl1+OcSg2: nonegowandikoni
+     ndiko+V+Subj+Prt+ScPl3+OcSg2: nonegogindikoni
+#
+     ndiko+V+Subj+Prt+ScSg1+OcSg3: nonegandikone
+     ndiko+V+Subj+Prt+ScSg2+OcSg3: nonegindikone
+     ndiko+V+Subj+Prt+ScSg3+OcSg3: nonegondikone
+     ndiko+V+Subj+Prt+ScPl1+OcSg3: nonegowandikone
+     ndiko+V+Subj+Prt+ScPl2+OcSg3: nonegoundikone
+     ndiko+V+Subj+Prt+ScPl3+OcSg3: nonegogindikone
+#
+     ndiko+V+Subj+Prt+ScSg1+OcPl1: nonegandikonwa
+     ndiko+V+Subj+Prt+ScSg2+OcPl1: nonegindikonwa
+     ndiko+V+Subj+Prt+ScSg3+OcPl1: nonegondikonwa
+     ndiko+V+Subj+Prt+ScPl2+OcPl1: nonegoundikonwa
+     ndiko+V+Subj+Prt+ScPl3+OcPl1: nonegogindikonwa
+#
+     ndiko+V+Subj+Prt+ScSg1+OcPl2: nonegandikou
+     ndiko+V+Subj+Prt+ScSg3+OcPl2: nonegondikou
+     ndiko+V+Subj+Prt+ScPl1+OcPl2: nonegowandikou
+     ndiko+V+Subj+Prt+ScPl3+OcPl2: nonegogindikou
+#
+     ndiko+V+Subj+Prt+ScSg1+OcPl3: nonegandikogi
+     ndiko+V+Subj+Prt+ScSg2+OcPl3: nonegindikogi
+     ndiko+V+Subj+Prt+ScSg3+OcPl3: nonegondikogi
+     ndiko+V+Subj+Prt+ScPl1+OcPl3: nonegowandikogi
+     ndiko+V+Subj+Prt+ScPl2+OcPl3: nonegoundikogi
+     ndiko+V+Subj+Prt+ScPl3+OcPl3: nonegogindikogi
+## Indicative Present negative
+# ok%<
+     ndiko+V+Ind+PrsNeg+ScSg1: okandiko
+     ndiko+V+Ind+PrsNeg+ScSg2: okindiko
+     ndiko+V+Ind+PrsNeg+ScSg3: okondiko
+     ndiko+V+Ind+PrsNeg+ScPl1: okwandiko
+     ndiko+V+Ind+PrsNeg+ScPl2: okundiko
+     ndiko+V+Ind+PrsNeg+ScPl3: okgindiko
+
+     ndiko+V+Ind+PrsNeg+ScSg2+OcSg1: okindikona
+     ndiko+V+Ind+PrsNeg+ScSg3+OcSg1: okondikona
+     ndiko+V+Ind+PrsNeg+ScPl2+OcSg1: okundikona
+     ndiko+V+Ind+PrsNeg+ScPl3+OcSg1: okgindikona
+#
+     ndiko+V+Ind+PrsNeg+ScSg1+OcSg2: okandikoni
+     ndiko+V+Ind+PrsNeg+ScSg3+OcSg2: okondikoni
+     ndiko+V+Ind+PrsNeg+ScPl1+OcSg2: okwandikoni
+     ndiko+V+Ind+PrsNeg+ScPl3+OcSg2: okgindikoni
+#
+     ndiko+V+Ind+PrsNeg+ScSg1+OcSg3: okandikone
+     ndiko+V+Ind+PrsNeg+ScSg2+OcSg3: okindikone
+     ndiko+V+Ind+PrsNeg+ScSg3+OcSg3: okondikone
+     ndiko+V+Ind+PrsNeg+ScPl1+OcSg3: okwandikone
+     ndiko+V+Ind+PrsNeg+ScPl2+OcSg3: okundikone
+     ndiko+V+Ind+PrsNeg+ScPl3+OcSg3: okgindikone
+#
+     ndiko+V+Ind+PrsNeg+ScSg1+OcPl1: okandikonwa
+     ndiko+V+Ind+PrsNeg+ScSg2+OcPl1: okindikonwa
+     ndiko+V+Ind+PrsNeg+ScSg3+OcPl1: okondikonwa
+     ndiko+V+Ind+PrsNeg+ScPl2+OcPl1: okundikonwa
+     ndiko+V+Ind+PrsNeg+ScPl3+OcPl1: okgindikonwa
+#
+     ndiko+V+Ind+PrsNeg+ScSg1+OcPl2: okandikou
+     ndiko+V+Ind+PrsNeg+ScSg3+OcPl2: okondikou
+     ndiko+V+Ind+PrsNeg+ScPl1+OcPl2: okwandikou
+     ndiko+V+Ind+PrsNeg+ScPl3+OcPl2: okgindikou
+#
+     ndiko+V+Ind+PrsNeg+ScSg1+OcPl3: okandikogi
+     ndiko+V+Ind+PrsNeg+ScSg2+OcPl3: okindikogi
+     ndiko+V+Ind+PrsNeg+ScSg3+OcPl3: okondikogi
+     ndiko+V+Ind+PrsNeg+ScPl1+OcPl3: okwandikogi
+     ndiko+V+Ind+PrsNeg+ScPl2+OcPl3: okundikogi
+     ndiko+V+Ind+PrsNeg+ScPl3+OcPl3: okgindikogi
+
+## Indicative Future negative I will not write
+# ok%<PERSON%<be
+     bendiko+V+Ind+FutNeg+ScSg1: okabendiko
+     bendiko+V+Ind+FutNeg+ScSg2: okibendiko
+     bendiko+V+Ind+FutNeg+ScSg3: okobendiko
+     bendiko+V+Ind+FutNeg+ScPl1: okwabendiko
+     bendiko+V+Ind+FutNeg+ScPl2: okubendiko
+     bendiko+V+Ind+FutNeg+ScPl3: okgibendiko
+
+     bendiko+V+Ind+FutNeg+ScSg2+OcSg1: okibendikona
+     bendiko+V+Ind+FutNeg+ScSg3+OcSg1: okobendikona
+     bendiko+V+Ind+FutNeg+ScPl2+OcSg1: okubendikona
+     bendiko+V+Ind+FutNeg+ScPl3+OcSg1: okgibendikona
+#
+     bendiko+V+Ind+FutNeg+ScSg1+OcSg2: okabendikoni
+     bendiko+V+Ind+FutNeg+ScSg3+OcSg2: okobendikoni
+     bendiko+V+Ind+FutNeg+ScPl1+OcSg2: okwabendikoni
+     bendiko+V+Ind+FutNeg+ScPl3+OcSg2: okgibendikoni
+#
+     bendiko+V+Ind+FutNeg+ScSg1+OcSg3: okabendikone
+     bendiko+V+Ind+FutNeg+ScSg2+OcSg3: okibendikone
+     bendiko+V+Ind+FutNeg+ScSg3+OcSg3: okobendikone
+     bendiko+V+Ind+FutNeg+ScPl1+OcSg3: okwabendikone
+     bendiko+V+Ind+FutNeg+ScPl2+OcSg3: okubendikone
+     bendiko+V+Ind+FutNeg+ScPl3+OcSg3: okgibendikone
+#
+     bendiko+V+Ind+FutNeg+ScSg1+OcPl1: okabendikonwa
+     bendiko+V+Ind+FutNeg+ScSg2+OcPl1: okibendikonwa
+     bendiko+V+Ind+FutNeg+ScSg3+OcPl1: okobendikonwa
+     bendiko+V+Ind+FutNeg+ScPl2+OcPl1: okubendikonwa
+     bendiko+V+Ind+FutNeg+ScPl3+OcPl1: okgibendikonwa
+#
+     bendiko+V+Ind+FutNeg+ScSg1+OcPl2: okabendikou
+     bendiko+V+Ind+FutNeg+ScSg3+OcPl2: okobendikou
+     bendiko+V+Ind+FutNeg+ScPl1+OcPl2: okwabendikou
+     bendiko+V+Ind+FutNeg+ScPl3+OcPl2: okgibendikou
+#
+     bendiko+V+Ind+FutNeg+ScSg1+OcPl3: okabendikogi
+     bendiko+V+Ind+FutNeg+ScSg2+OcPl3: okibendikogi
+     bendiko+V+Ind+FutNeg+ScSg3+OcPl3: okobendikogi
+     bendiko+V+Ind+FutNeg+ScPl1+OcPl3: okwabendikogi
+     bendiko+V+Ind+FutNeg+ScPl2+OcPl3: okubendikogi
+     bendiko+V+Ind+FutNeg+ScPl3+OcPl3: okgibendikogi
+
+## Indicative Past negative
+# n%<ok%<
+     ndiko+V+Ind+PrtNeg+ScSg1: nokandiko
+     ndiko+V+Ind+PrtNeg+ScSg2: nokindiko
+     ndiko+V+Ind+PrtNeg+ScSg3: nokondiko
+     ndiko+V+Ind+PrtNeg+ScPl1: nokwandiko
+     ndiko+V+Ind+PrtNeg+ScPl2: nokundiko
+     ndiko+V+Ind+PrtNeg+ScPl3: nokgindiko
+
+     ndiko+V+Ind+PrtNeg+ScSg2+OcSg1: nokindikona
+     ndiko+V+Ind+PrtNeg+ScSg3+OcSg1: nokondikona
+     ndiko+V+Ind+PrtNeg+ScPl2+OcSg1: nokundikona
+     ndiko+V+Ind+PrtNeg+ScPl3+OcSg1: nokgindikona
+#
+     ndiko+V+Ind+PrtNeg+ScSg1+OcSg2: nokandikoni
+     ndiko+V+Ind+PrtNeg+ScSg3+OcSg2: nokondikoni
+     ndiko+V+Ind+PrtNeg+ScPl1+OcSg2: nokwandikoni
+     ndiko+V+Ind+PrtNeg+ScPl3+OcSg2: nokgindikoni
+#
+     ndiko+V+Ind+PrtNeg+ScSg1+OcSg3: nokandikone
+     ndiko+V+Ind+PrtNeg+ScSg2+OcSg3: nokindikone
+     ndiko+V+Ind+PrtNeg+ScSg3+OcSg3: nokondikone
+     ndiko+V+Ind+PrtNeg+ScPl1+OcSg3: nokwandikone
+     ndiko+V+Ind+PrtNeg+ScPl2+OcSg3: nokundikone
+     ndiko+V+Ind+PrtNeg+ScPl3+OcSg3: nokgindikone
+#
+     ndiko+V+Ind+PrtNeg+ScSg1+OcPl1: nokandikonwa
+     ndiko+V+Ind+PrtNeg+ScSg2+OcPl1: nokindikonwa
+     ndiko+V+Ind+PrtNeg+ScSg3+OcPl1: nokondikonwa
+     ndiko+V+Ind+PrtNeg+ScPl2+OcPl1: nokundikonwa
+     ndiko+V+Ind+PrtNeg+ScPl3+OcPl1: nokgindikonwa
+#
+     ndiko+V+Ind+PrtNeg+ScSg1+OcPl2: nokandikou
+     ndiko+V+Ind+PrtNeg+ScSg3+OcPl2: nokondikou
+     ndiko+V+Ind+PrtNeg+ScPl1+OcPl2: nokwandikou
+     ndiko+V+Ind+PrtNeg+ScPl3+OcPl2: nokgindikou
+#
+     ndiko+V+Ind+PrtNeg+ScSg1+OcPl3: nokandikogi
+     ndiko+V+Ind+PrtNeg+ScSg2+OcPl3: nokindikogi
+     ndiko+V+Ind+PrtNeg+ScSg3+OcPl3: nokondikogi
+     ndiko+V+Ind+PrtNeg+ScPl1+OcPl3: nokwandikogi
+     ndiko+V+Ind+PrtNeg+ScPl2+OcPl3: nokundikogi
+     ndiko+V+Ind+PrtNeg+ScPl3+OcPl3: nokgindikogi
+
+## Imperative/Jussive negative
+# ok%<
+     ndiko+V+ImprtNeg+ScSg1: kikandik
+     ndiko+V+ImprtNeg+ScSg2: kikindik
+     ndiko+V+ImprtNeg+ScSg3: kikondik
+     ndiko+V+ImprtNeg+ScPl1: kikwandik
+     ndiko+V+ImprtNeg+ScPl2: kikundik
+     ndiko+V+ImprtNeg+ScPl3: kikgindik
+
+     ndiko+V+ImprtNeg+ScSg2+OcSg1: kikindikona
+     ndiko+V+ImprtNeg+ScSg3+OcSg1: kikondikona
+     ndiko+V+ImprtNeg+ScPl2+OcSg1: kikundikona
+     ndiko+V+ImprtNeg+ScPl3+OcSg1: kikgindikona
+#
+     ndiko+V+ImprtNeg+ScSg1+OcSg2: kikandikoni
+     ndiko+V+ImprtNeg+ScSg3+OcSg2: kikondikoni
+     ndiko+V+ImprtNeg+ScPl1+OcSg2: kikwandikoni
+     ndiko+V+ImprtNeg+ScPl3+OcSg2: kikgindikoni
+#
+     ndiko+V+ImprtNeg+ScSg1+OcSg3: kikandikone
+     ndiko+V+ImprtNeg+ScSg2+OcSg3: kikindikone
+     ndiko+V+ImprtNeg+ScSg3+OcSg3: kikondikone
+     ndiko+V+ImprtNeg+ScPl1+OcSg3: kikwandikone
+     ndiko+V+ImprtNeg+ScPl2+OcSg3: kikundikone
+     ndiko+V+ImprtNeg+ScPl3+OcSg3: kikgindikone
+#
+     ndiko+V+ImprtNeg+ScSg1+OcPl1: kikandikonwa
+     ndiko+V+ImprtNeg+ScSg2+OcPl1: kikindikonwa
+     ndiko+V+ImprtNeg+ScSg3+OcPl1: kikondikonwa
+     ndiko+V+ImprtNeg+ScPl2+OcPl1: kikundikonwa
+     ndiko+V+ImprtNeg+ScPl3+OcPl1: kikgindikonwa
+#
+     ndiko+V+ImprtNeg+ScSg1+OcPl2: kikandikou
+     ndiko+V+ImprtNeg+ScSg3+OcPl2: kikondikou
+     ndiko+V+ImprtNeg+ScPl1+OcPl2: kikwandikou
+     ndiko+V+ImprtNeg+ScPl3+OcPl2: kikgindikou
+#
+     ndiko+V+ImprtNeg+ScSg1+OcPl3: kikandikogi
+     ndiko+V+ImprtNeg+ScSg2+OcPl3: kikindikogi
+     ndiko+V+ImprtNeg+ScSg3+OcPl3: kikondikogi
+     ndiko+V+ImprtNeg+ScPl1+OcPl3: kikwandikogi
+     ndiko+V+ImprtNeg+ScPl2+OcPl3: kikundikogi
+     ndiko+V+ImprtNeg+ScPl3+OcPl3: kikgindikogi
+
+## Imperative/Jussive let me write
+# 0%<
+     ndiko+V+Imprt+ScSg1: andik
+     ndiko+V+Imprt+ScSg2: indik
+     ndiko+V+Imprt+ScSg3: ondik
+     ndiko+V+Imprt+ScPl1: wandik
+     ndiko+V+Imprt+ScPl2: ndikuru
+     ndiko+V+Imprt+ScPl3: gindik
+
+     ndiko+V+Imprt+ScSg2+OcSg1: indikona
+     ndiko+V+Imprt+ScSg3+OcSg1: ondikona
+     ndiko+V+Imprt+ScPl2+OcSg1: undikona
+     ndiko+V+Imprt+ScPl3+OcSg1: gindikona
+#
+     ndiko+V+Imprt+ScSg1+OcSg2: andikoni
+     ndiko+V+Imprt+ScSg3+OcSg2: ondikoni
+     ndiko+V+Imprt+ScPl1+OcSg2: wandikoni
+     ndiko+V+Imprt+ScPl3+OcSg2: gindikoni
+#
+     ndiko+V+Imprt+ScSg1+OcSg3: andikone
+     ndiko+V+Imprt+ScSg2+OcSg3: indikone
+     ndiko+V+Imprt+ScSg3+OcSg3: ondikone
+     ndiko+V+Imprt+ScPl1+OcSg3: wandikone
+     ndiko+V+Imprt+ScPl2+OcSg3: undikone
+     ndiko+V+Imprt+ScPl3+OcSg3: gindikone
+#
+     ndiko+V+Imprt+ScSg1+OcPl1: andikonwa
+     ndiko+V+Imprt+ScSg2+OcPl1: indikonwa
+     ndiko+V+Imprt+ScSg3+OcPl1: ondikonwa
+     ndiko+V+Imprt+ScPl2+OcPl1: undikonwa
+     ndiko+V+Imprt+ScPl3+OcPl1: gindikonwa
+#
+     ndiko+V+Imprt+ScSg1+OcPl2: andikou
+     ndiko+V+Imprt+ScSg3+OcPl2: ondikou
+     ndiko+V+Imprt+ScPl1+OcPl2: wandikou
+     ndiko+V+Imprt+ScPl3+OcPl2: gindikou
+#
+     ndiko+V+Imprt+ScSg1+OcPl3: andikogi
+     ndiko+V+Imprt+ScSg2+OcPl3: indikogi
+     ndiko+V+Imprt+ScSg3+OcPl3: ondikogi
+     ndiko+V+Imprt+ScPl1+OcPl3: wandikogi
+     ndiko+V+Imprt+ScPl2+OcPl3: undikogi
+     ndiko+V+Imprt+ScPl3+OcPl3: gindikogi
+
+
+
+
+
