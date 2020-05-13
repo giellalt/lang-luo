@@ -1,0 +1,35 @@
+[package]
+name = "luo"
+human_name = "Luo (Kenya and Tanzania)"
+version = "0.1.0"
+
+# Table of speller tag -> filename to include in the bundle
+# filenames depends on specific project
+[spellers.luo]
+filename = "luo-mobile.zhfst"
+
+# Table of bundles to generated
+# key is the type of bundle
+# Windows speller bundle require a uuid for the installer
+[bundles.speller_win]
+package = "speller-luo"
+platform = "windows"
+uuid = "D041C785-0ACC-490F-AB25-DAC29F68F23A"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_macos]
+pkg_id = "no.divvun.MacDivvun.luo"
+package = "speller-luo"
+platform = "macos"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_win_mso]
+package = "speller-luo-mso"
+platform = "windows"
+uuid = "DEF5AE9E-6F62-4B4E-BEB0-F0BC9114704E"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_mobile]
+package = "speller-luo"
+platform = "mobile"
+repo = "https://pahkat.uit.no/main/"
