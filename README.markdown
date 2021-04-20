@@ -10,7 +10,8 @@ authors named in the AUTHORS file are available to grant other licencing
 choices.
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-luo)](https://github.com/giellalt/lang-luo/issues)
- [![Build Status](https://github.com/giellalt/lang-luo/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-luo/actions)
+[![Build Status](https://github.com/giellalt/lang-luo/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-luo/actions)
+[![License](https://img.shields.io/github/license/giellalt/template-lang-luo)](https://raw.githubusercontent.com/giellalt/lang-luo/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-luo)
 for the Luo (Kenya and Tanzania) language by using the [Divvun Installer](http://divvun.no)
