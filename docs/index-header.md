@@ -1,7 +1,7 @@
 # Luo (Kenya and Tanzania) documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/template-lang-luo)](https://raw.githubusercontent.com/giellalt/lang-luo/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-luo)](https://raw.githubusercontent.com/giellalt/lang-luo/develop/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-luo)](https://github.com/giellalt/lang-luo/issues)
 [![Build status](https://github.com/giellalt/lang-luo/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-luo/actions)
 
