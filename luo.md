@@ -605,18 +605,8 @@ These were the set types.
 
 
 
-Nouns
-Nouns in the LUO language are things.
-
-
-Numerals
-Numerals in the Luo (Kenya and Tanzania) language are numbers.
-
-
-Verbs
-Verbs in the LUO language are actions.
-
-Undesignated conjugation types
+Verb inflection
+The LUO language verbs inflect in persons.
 
 
 
@@ -624,8 +614,6 @@ Undesignated conjugation types
 
 
 
-Prefixes
-Prefixes in the LUO language are bound to beginning of other words.
 
 
 
@@ -633,12 +621,34 @@ Prefixes in the LUO language are bound to beginning of other words.
 
 
 
-Adjectives
-Adjectives in the Luo (Kenya and Tanzania) language describe things.
 
 
-Pronouns
-Pronouns in the Luo (Kenya and Tanzania) language are references to things.
+
+
+
+Proper noun inflection
+The Luo (Kenya and Tanzania) language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+Adjective inflection
+The Luo (Kenya and Tanzania) language adjectives compare.
+
+
+
+Noun inflection
+The LUO language nouns inflect in cases.
+
+
+
+
+
+
+# Symbol affixes
+
+
+
 
 
 =================================== !
@@ -664,28 +674,10 @@ for distinguishing ngʼ from ng combining letter apostrophe
 * examples:*
 
 * examples:*
+Verbs
+Verbs in the LUO language are actions.
 
-# Symbol affixes
-
-
-
-
-
-Noun inflection
-The LUO language nouns inflect in cases.
-
-
-
-
-
-Proper noun inflection
-The Luo (Kenya and Tanzania) language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
-Verb inflection
-The LUO language verbs inflect in persons.
+Undesignated conjugation types
 
 
 
@@ -693,6 +685,20 @@ The LUO language verbs inflect in persons.
 
 
 
+Pronouns
+Pronouns in the Luo (Kenya and Tanzania) language are references to things.
+
+
+Numerals
+Numerals in the Luo (Kenya and Tanzania) language are numbers.
+
+
+Adjectives
+Adjectives in the Luo (Kenya and Tanzania) language describe things.
+
+
+Prefixes
+Prefixes in the LUO language are bound to beginning of other words.
 
 
 
@@ -700,14 +706,8 @@ The LUO language verbs inflect in persons.
 
 
 
-
-
-
-
-
-Adjective inflection
-The Luo (Kenya and Tanzania) language adjectives compare.
-
+Nouns
+Nouns in the LUO language are things.
 
 
 
@@ -805,22 +805,6 @@ word classes, or optionally from prefixes:
 
 
 
-We describe here how abbreviations are in Luo (Kenya and Tanzania) are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-
-
-
 
 
 
@@ -871,6 +855,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Luo (Kenya and Tanzania) are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
