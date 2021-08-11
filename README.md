@@ -3,7 +3,7 @@ The Luo (Kenya and Tanzania) morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-luo)](https://github.com/giellalt/lang-luo/issues)
 [![Build Status](https://github.com/giellalt/lang-luo/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-luo/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-luo)](https://raw.githubusercontent.com/giellalt/lang-luo/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-luo)](https://github.com/giellalt/lang-luo/blob/main/LICENSE)
 
 This repository contains finite state source files for the Luo (Kenya and Tanzania) language,
 for building morphological analysers, proofing tools
