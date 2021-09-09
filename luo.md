@@ -606,10 +606,59 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-luo/blob/main/../src/cg3/functions.cg3)</small>Verbs
-Verbs in the LUO language are actions.
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-luo/blob/main/../src/cg3/functions.cg3)</small>=================================== !
+The Luo (Kenya and Tanzania) morphophonological/twolc rules file !
+=================================== !
 
-Undesignated conjugation types
+
+for distinguishing ngʼ from ng combining letter apostrophe
+
+
+
+
+
+* *primus%>s*
+* *primus00*
+
+
+* examples:*
+
+* examples:*
+
+
+* examples:*
+
+* examples:*
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/phonology.twolc)</small>Noun inflection
+The LUO language nouns inflect in cases.
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/affixes/nouns.lexc)</small>Proper noun inflection
+The Luo (Kenya and Tanzania) language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/affixes/propernouns.lexc)</small>Verb inflection
+The LUO language verbs inflect in persons.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -618,37 +667,21 @@ Undesignated conjugation types
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
-Numerals in the Luo (Kenya and Tanzania) language are numbers.
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/affixes/verbs.lexc)</small>Adjective inflection
+The Luo (Kenya and Tanzania) language adjectives compare.
 
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/stems/numerals.lexc)</small>Pronouns
-Pronouns in the Luo (Kenya and Tanzania) language are references to things.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/stems/pronouns.lexc)</small>Prefixes
-Prefixes in the LUO language are bound to beginning of other words.
-
-
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/affixes/adjectives.lexc)</small>
+# Symbol affixes
 
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/stems/prefixes.lexc)</small>Adjectives
-Adjectives in the Luo (Kenya and Tanzania) language describe things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/stems/adjectives.lexc)</small>Nouns
-Nouns in the LUO language are things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/affixes/symbols.lexc)</small>
 # Luo (Kenya and Tanzania) morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Luo (Kenya and Tanzania) LANGUAGE.
 
@@ -741,44 +774,15 @@ The word forms in Luo (Kenya and Tanzania) language start from the lexeme roots 
 word classes, or optionally from prefixes:
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/root.lexc)</small>=================================== !
-The Luo (Kenya and Tanzania) morphophonological/twolc rules file !
-=================================== !
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/root.lexc)</small>Nouns
+Nouns in the LUO language are things.
 
 
-for distinguishing ngʼ from ng combining letter apostrophe
-
-
-
-
-
-* *primus%>s*
-* *primus00*
-
-
-* examples:*
-
-* examples:*
-
-
-* examples:*
-
-* examples:*
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/phonology.twolc)</small>Verb inflection
-The LUO language verbs inflect in persons.
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/stems/nouns.lexc)</small>Verbs
+Verbs in the LUO language are actions.
 
-
-
-
-
-
-
-
-
-
-
-
+Undesignated conjugation types
 
 
 
@@ -787,36 +791,32 @@ The LUO language verbs inflect in persons.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/affixes/verbs.lexc)</small>
-# Symbol affixes
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/stems/verbs.lexc)</small>Adjectives
+Adjectives in the Luo (Kenya and Tanzania) language describe things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/stems/adjectives.lexc)</small>Numerals
+Numerals in the Luo (Kenya and Tanzania) language are numbers.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/stems/numerals.lexc)</small>Prefixes
+Prefixes in the LUO language are bound to beginning of other words.
+
+
 
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/affixes/symbols.lexc)</small>Proper noun inflection
-The Luo (Kenya and Tanzania) language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/affixes/propernouns.lexc)</small>Adjective inflection
-The Luo (Kenya and Tanzania) language adjectives compare.
-
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/stems/prefixes.lexc)</small>Pronouns
+Pronouns in the Luo (Kenya and Tanzania) language are references to things.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/affixes/adjectives.lexc)</small>Noun inflection
-The LUO language nouns inflect in cases.
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/stems/pronouns.lexc)</small>
 
 
 
