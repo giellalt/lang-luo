@@ -2,7 +2,6 @@
 # Luo (Kenya and Tanzania) morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Luo (Kenya and Tanzania) LANGUAGE.
 
-
 # Definitions for Multichar_Symbols
 
 ## Analysis symbols
@@ -24,7 +23,6 @@ Numerals are classified under:
 Verb moods are:
 Verb personal forms are:
 
-
 Other verb forms are
 
 * +Symbol = independent symbols in the text stream, like £, €, ©
@@ -35,13 +33,10 @@ Non-dictionary words can be recognised with:
 
 Question and Focus particles:
 
-
 Semantics are classified with
-
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
-
 
 Morphophonology
 To represent phonologic variations in word forms we use the following
@@ -51,14 +46,9 @@ And following triggers to control variation
 
 ## Flag diacritics
 
-
 VERBS
 
 Tense Mood Aspect marking
-
-
-
-
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
@@ -91,4 +81,8 @@ The word forms in Luo (Kenya and Tanzania) language start from the lexeme roots 
 word classes, or optionally from prefixes:
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-luo/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-luo/blob/main/src/fst/root.lexc)</small>
+
+---
+
