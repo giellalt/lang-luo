@@ -2,7 +2,7 @@ The Luo (Kenya and Tanzania) morphology and tools
 ==========================================
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-luo)](https://github.com/giellalt/lang-luo/issues)
-[![Build Status](https://github.com/giellalt/lang-luo/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-luo/actions)
+[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-luo/main/badge.svg)](https://github.com/giellalt/lang-luo/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-luo)](https://github.com/giellalt/lang-luo/blob/main/LICENSE)
 
 This repository contains finite state source files for the Luo (Kenya and Tanzania) language,
