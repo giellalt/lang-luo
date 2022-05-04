@@ -225,13 +225,13 @@ for distinguishing ngʼ from ng combining letter apostrophe
 * *primus%>s*
 * *primus00*
 
-* examples:*
+*  examples:*
 
-* examples:*
+*  examples:*
 
-* examples:*
+*  examples:*
 
-* examples:*
+*  examples:*
 
 * * *
 
