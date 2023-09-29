@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-luo)](https://github.com/giellalt/lang-luo/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-luo)](https://github.com/giellalt/lang-luo/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-luo/main/badge.svg)](https://github.com/giellalt/lang-luo/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-luo/main/badge.svg)](https://github.com/giellalt/lang-luo/actions)
 
 This page documents the work on the **Luo (Kenya and Tanzania) language model**. 
 
