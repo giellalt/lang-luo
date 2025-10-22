@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-luo)](https://github.com/giellalt/lang-luo/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-luo)](https://github.com/giellalt/lang-luo/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-luo?label=CI)](https://builds.giellalt.org/pipelines/lang-luo/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/luok1236)
 
 This page documents the work on the **Luo (Kenya and Tanzania) language model**. 
 
