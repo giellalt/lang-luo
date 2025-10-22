@@ -4,7 +4,7 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-luo%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-luo)](https://github.com/giellalt/lang-luo/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-luo)](https://github.com/giellalt/lang-luo/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-luo/main/badge.svg)](https://github.com/giellalt/lang-luo/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-luo?label=CI)](https://builds.giellalt.org/pipelines/lang-luo/builds/latest)
 
 This page documents the work on the **Luo (Kenya and Tanzania) language model**. 
 
