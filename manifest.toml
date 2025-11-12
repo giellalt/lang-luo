@@ -1,17 +1,14 @@
-spellername = "Luo (Kenya and Tanzania)"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
-en = "Luo (Kenya and Tanzania) spellchecker"
+en = "Luo (Kenya and Tanzania spellchecker"
 luo = "Autonym spellchecker"
 
 # Description of the speller package in various languages.
 # The default is English + autonym:
 [speller.description]
-en = "A spellchecker for Luo (Kenya and Tanzania), made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
-luo = "TRANSLATE: A spellchecker for Luo (Kenya and Tanzania), made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
+en = "A spellchecker for Luo (Kenya and Tanzania, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
+luo = "TRANSLATE: A spellchecker for Luo (Kenya and Tanzania, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
 
 [macos]
 system_pkg_id = "no.divvun.MacDivvun.luo"
@@ -22,3 +19,15 @@ legacy_product_codes = [
     { value = "D041C785-0ACC-490F-AB25-DAC29F68F23A", kind = "nsis" },
     { value = "DEF5AE9E-6F62-4B4E-BEB0-F0BC9114704E", kind = "nsis" }
 ]
+
+[package.speller]
+name = "Luo (Kenya and Tanzania"
+version = "0.1.1"
+
+[package.grammar]
+name = "Luo (Kenya and Tanzania"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Luo (Kenya and Tanzania"
+version = "0.1.0"
