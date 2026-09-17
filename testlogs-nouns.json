@@ -1,0 +1,1 @@
+{"id":"nouns","kind":"lemma","failures":[{"lemma":"ot","no_generation":["ot+N+Sg+Nom","ot+N+Pl+Nom"],"wrong_generation":[],"analyses":["ot+N+Sg"]},{"lemma":"noun","no_generation":["noun+N+Sg+Nom","noun+N+Pl+Nom"],"wrong_generation":[],"analyses":["noun+N+sg+nom"]}]}
